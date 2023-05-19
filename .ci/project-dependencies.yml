@@ -1,0 +1,67 @@
+version: "2.1"
+
+dependencies:
+  - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-python
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-c
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-cpp
+    dependencies:
+      - project: eclipse-zenoh/zenoh-c
+
+  - project: eclipse-zenoh/zenoh-pico
+
+  - project: eclipse-zenoh/zenoh-plugin-dds
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-plugin-mqtt
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-plugin-webserver
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-backend-s3
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-backend-filesystem
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-backend-influxdb
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-backend-rocksdb
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+  - project: eclipse-zenoh/zenoh-plugin-ros1
+    dependencies:
+      - project: eclipse-zenoh/zenoh
+
+
+
+default: #Define the default configuration for every repository
+  build-command:
+    upstream: make clean install -DskipTests
+    current: make clean install
+    after:
+      upstream: rm -rf ./*
+
+build:
+  - project: eclipse-zenoh/zenoh
+    build-command:
+      upstream: |
+        cargo build --release --all-targets
+      current: |
+        cargo build --verbose --all-targets

@@ -1,0 +1,25 @@
+name: Generate status page data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  generate-status-page-data:
+    if: github.repository_owner == 'ZettaScaleLabs'
+    concurrency:
+      group: generate-status-page-data
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+    name: Generate status page data
+    steps:
+      - name: Generate status page data
+        uses: kiegroup/chain-status/.ci/actions/generate-data@main
+        with:
+          definition-file: https://raw.githubusercontent.com/jamroks/zenoh-status-page/main/.ci/project-dependencies.yml
+          title: Zenoh Status
+          subtitle: Zenoh  repositories CI Status
+          created-by: Github Action
+          created-url: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          logger-level: debug
+          github-token: ${{ secrets.TF_GITHUB_TOKEN }}
