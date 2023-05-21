@@ -13,13 +13,13 @@ jobs:
       matrix:
         os: [ubuntu-latest]
       fail-fast: true
-    runs-on: ubuntu-m2
+    runs-on: ubuntu-latest
     name: Generate status page
     steps:
       - name: Generate status webpage
         # uses the already provided chain-status action for app generation purpose
         uses: kiegroup/chain-status/.ci/actions/generate-app@main
         with:
-          info-md-url: "https://raw.githubusercontent.com/jamroks/zenoh-status-page/main/.ci/chain-status-info.md"
+          info-md-url: "https://raw.githubusercontent.com/zenoh-status-page/main/.ci/chain-status-info.md"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           gh-pages-branch: "gh-pages"
