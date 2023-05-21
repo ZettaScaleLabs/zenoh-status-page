@@ -16,7 +16,7 @@ jobs:
       - name: Generate status page data
         uses: kiegroup/chain-status/.ci/actions/generate-data@main
         with:
-          definition-file: https://raw.githubusercontent.com/zenoh-status-page/main/.ci/project-dependencies.yml
+          definition-file: https://raw.githubusercontent.com/ZettaScaleLabs/zenoh-status-page/main/.ci/project-dependencies.yml
           title: Zenoh Status
           subtitle: Zenoh  repositories CI Status
           created-by: Github Action

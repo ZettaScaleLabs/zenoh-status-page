@@ -20,6 +20,6 @@ jobs:
         # uses the already provided chain-status action for app generation purpose
         uses: kiegroup/chain-status/.ci/actions/generate-app@main
         with:
-          info-md-url: "https://raw.githubusercontent.com/zenoh-status-page/main/.ci/chain-status-info.md"
+          info-md-url: "https://raw.githubusercontent.com/ZettaScaleLabs/zenoh-status-page/main/.ci/chain-status-info.md"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           gh-pages-branch: "gh-pages"
