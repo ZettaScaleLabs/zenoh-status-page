@@ -2,10 +2,12 @@
 name: status pages build deployment
 
 on:
-  # Runs on pushes targeting the branch
-  push:
+  # Runs on workflow_run completed from default branch
+  workflow_run:
+    workflows: ["Generate status page data"]
+    types: [completed]
     branches:
-      - gh-pages
+      - 'main'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
