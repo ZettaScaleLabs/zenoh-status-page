@@ -6,10 +6,13 @@ on:
   workflow_run:
     workflows: ["Generate status page data"]
     types: [completed]
-#    branches:
-#      - 'main'
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches:
+      - 'main'
+  # Runs on push to target branch
+  push:
+    branches:
+      - 'gh-pages'
+  # Runs on manually triggered event from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
