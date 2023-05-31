@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-05-31T06:09:29.231Z",
+    "date": "2023-05-31T07:07:04.023Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/5129473010"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/5129894454"
   },
   "projects": [
     {
@@ -2267,6 +2267,69 @@
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls{/number}",
       "pullRequests": [
         {
+          "number": 134,
+          "title": "Put binary \"zenoh-bridge-dds\" into bin folder while colcon build",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls/134",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/pull/134",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2023-05-31T06:43:39Z",
+          "updated_at": "2023-05-31T06:43:39Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "af0ad0df9f0c45f59606bd30e24228f8dfa02252",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "update_cmake",
+            "sha": "f028e6fbc7591d53fd49bf2fdb6cb101add19682",
+            "label": "evshary:update_cmake"
+          },
+          "user": {
+            "login": "evshary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/456210?v=4",
+            "html_url": "https://github.com/evshary"
+          },
+          "checks": [
+            {
+              "id": 13882943045,
+              "name": "Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/5129717313/jobs/9227631303",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-05-31T06:43:55Z",
+              "completed_at": "2023-05-31T06:53:51Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 13882942921,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/5129717313/jobs/9227631197",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-05-31T06:43:49Z",
+              "completed_at": "2023-05-31T06:50:44Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 23374027674,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://accounts.eclipse.org/legal/eca/validation/156929",
+              "conclusion": "success",
+              "started_at": "2023-05-31T06:43:44Z",
+              "completed_at": "2023-05-31T06:43:44Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
+        {
           "number": 133,
           "title": "Updated implementation to use Cyclone DDS API instead of cyclocut where possible.",
           "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls/133",
@@ -2505,7 +2568,7 @@
           "draft": true,
           "requested_reviewers": [],
           "created_at": "2023-05-26T16:52:53Z",
-          "updated_at": "2023-05-30T13:19:36Z",
+          "updated_at": "2023-05-31T07:06:41Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
