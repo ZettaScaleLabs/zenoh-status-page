@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-06-10T02:10:51.072Z",
+    "date": "2023-06-10T03:07:00.643Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/5227566757"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/5227813225"
   },
   "projects": [
     {
@@ -1903,6 +1903,47 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-pico",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 220,
+          "title": "Fix compilation error by moving _z_session_init to the right #if",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls/220",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/pull/220",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2023-06-10T02:40:42Z",
+          "updated_at": "2023-06-10T02:46:59Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "a96a91e9733b2bddac1460bf82dfb93615d7331f",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "fix_compilation_error",
+            "sha": "e62b1a73adbac8695d4ae1e49c2024c74d609c8d",
+            "label": "clachan:fix_compilation_error"
+          },
+          "user": {
+            "login": "clachan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1220868?v=4",
+            "html_url": "https://github.com/clachan"
+          },
+          "checks": [
+            {
+              "id": 23556894668,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://accounts.eclipse.org/legal/eca/validation/158697",
+              "conclusion": "success",
+              "started_at": "2023-06-10T02:56:07Z",
+              "completed_at": "2023-06-10T02:56:07Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 218,
           "title": "Session restart example",
