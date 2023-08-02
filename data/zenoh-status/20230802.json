@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-08-02T22:06:16.415Z",
+    "date": "2023-08-02T23:06:29.117Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/5744244383"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/5744651605"
   },
   "projects": [
     {
@@ -19,6 +19,47 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 527,
+          "title": "Option to skip domain name verification of servers",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/527",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/527",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2023-08-02T22:43:54Z",
+          "updated_at": "2023-08-02T22:57:02Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "7e8808b36da441ff1d29e1da2f70b2d83a7a3979",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "skip_domain_name_verification_of_servers",
+            "sha": "e9a402c1f952be95bf66d19a83a1efb12c385834",
+            "label": "Fritiofhedstrom:skip_domain_name_verification_of_servers"
+          },
+          "user": {
+            "login": "Fritiofhedstrom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73887014?v=4",
+            "html_url": "https://github.com/Fritiofhedstrom"
+          },
+          "checks": [
+            {
+              "id": 24401670447,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://accounts.eclipse.org/legal/eca/validation/167096",
+              "conclusion": "error",
+              "started_at": "2023-08-02T22:57:07Z",
+              "completed_at": "2023-08-02T22:57:07Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 526,
           "title": "Multicast support",
