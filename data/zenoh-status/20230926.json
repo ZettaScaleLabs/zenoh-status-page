@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-09-26T04:08:44.134Z",
+    "date": "2023-09-26T06:09:47.296Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/6307940133"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/6308760547"
   },
   "projects": [
     {
@@ -747,6 +747,69 @@
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-ros1/pulls{/number}",
       "pullRequests": [
         {
+          "number": 16,
+          "title": "Packaging and publishing",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-ros1/pulls/16",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/pull/16",
+          "state": "open",
+          "labels": [],
+          "draft": true,
+          "requested_reviewers": [],
+          "created_at": "2023-09-26T06:02:17Z",
+          "updated_at": "2023-09-26T06:02:17Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "519acc0589180ae043462bc8c23e9b8fb45ee485",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "packaging_and_publishing",
+            "sha": "73824ba3f8ff45a765bfd58303a45e1ad6fa1b58",
+            "label": "ZettaScaleLabs:packaging_and_publishing"
+          },
+          "user": {
+            "login": "yellowhatter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/104833606?v=4",
+            "html_url": "https://github.com/yellowhatter"
+          },
+          "checks": [
+            {
+              "id": 17127271445,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6308694239/job/17127271445",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-09-26T06:02:29Z",
+              "completed_at": "2023-09-26T06:02:50Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 17127271200,
+              "name": "Run checks on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6308694239/job/17127271200",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-09-26T06:02:29Z",
+              "completed_at": "2023-09-26T06:02:50Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 25263470395,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-ros1/16",
+              "conclusion": "success",
+              "started_at": "2023-09-26T06:02:20Z",
+              "completed_at": "2023-09-26T06:02:20Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
+        {
           "number": 13,
           "title": "Check release build",
           "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-ros1/pulls/13",
@@ -756,17 +819,17 @@
           "draft": true,
           "requested_reviewers": [],
           "created_at": "2023-09-11T09:55:14Z",
-          "updated_at": "2023-09-11T09:55:14Z",
+          "updated_at": "2023-09-26T05:51:52Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
             "ref": "main",
-            "sha": "2dc8d22492bba8400f4ba4924d2930d43cac88b3",
+            "sha": "519acc0589180ae043462bc8c23e9b8fb45ee485",
             "label": "eclipse-zenoh:main"
           },
           "head": {
             "ref": "check_release_build",
-            "sha": "923d09124d422bd5fb375848305338505a48b3b5",
+            "sha": "4156b6a99f8b63f4f4bc5c468c7347bd5d971256",
             "label": "ZettaScaleLabs:check_release_build"
           },
           "user": {
@@ -776,144 +839,56 @@
           },
           "checks": [
             {
-              "id": 16671018219,
-              "name": "Build for aarch64-unknown-linux-musl on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671018219",
+              "id": 17127092536,
+              "name": "Build for ${{ matrix.job.target }} on ${{ matrix.job.os }}",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6308627556/job/17127092536",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:57:44Z",
-              "completed_at": "2023-09-11T10:08:32Z",
+              "conclusion": "skipped",
+              "started_at": "2023-09-26T05:52:32Z",
+              "completed_at": "2023-09-26T05:52:32Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 16671018048,
-              "name": "Build for aarch64-unknown-linux-gnu on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671018048",
-              "status": "completed",
-              "conclusion": "failure",
-              "started_at": "2023-09-11T09:57:45Z",
-              "completed_at": "2023-09-11T10:10:16Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671017865,
-              "name": "Build for armv7-unknown-linux-gnueabihf on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671017865",
-              "status": "completed",
-              "conclusion": "failure",
-              "started_at": "2023-09-11T09:57:44Z",
-              "completed_at": "2023-09-11T10:06:23Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671017623,
-              "name": "Build for arm-unknown-linux-gnueabihf on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671017623",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:57:43Z",
-              "completed_at": "2023-09-11T10:11:43Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671017426,
-              "name": "Build for arm-unknown-linux-gnueabi on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671017426",
-              "status": "completed",
-              "conclusion": "failure",
-              "started_at": "2023-09-11T09:57:45Z",
-              "completed_at": "2023-09-11T10:10:15Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671017219,
-              "name": "Build for x86_64-unknown-linux-musl on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671017219",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:57:44Z",
-              "completed_at": "2023-09-11T10:09:12Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671017018,
-              "name": "Build for aarch64-apple-darwin on macos-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671017018",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:57:48Z",
-              "completed_at": "2023-09-11T10:13:15Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671016788,
-              "name": "Build for x86_64-apple-darwin on macos-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671016788",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:57:49Z",
-              "completed_at": "2023-09-11T10:12:53Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16671016527,
-              "name": "Build for x86_64-unknown-linux-gnu on ubuntu-20.04",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16671016527",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:57:44Z",
-              "completed_at": "2023-09-11T10:07:45Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16670951466,
-              "name": "Run tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803520/job/16670951466",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:55:28Z",
-              "completed_at": "2023-09-11T10:09:23Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 16670951143,
+              "id": 17127081526,
               "name": "Run checks on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803520/job/16670951143",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6308627560/job/17127081526",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:55:27Z",
-              "completed_at": "2023-09-11T09:57:49Z",
+              "conclusion": "failure",
+              "started_at": "2023-09-26T05:52:04Z",
+              "completed_at": "2023-09-26T05:52:23Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 16670951138,
+              "id": 17127081406,
               "name": "Code checks",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6144803519/job/16670951138",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6308627556/job/17127081406",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-09-11T09:55:26Z",
-              "completed_at": "2023-09-11T09:57:34Z",
+              "conclusion": "failure",
+              "started_at": "2023-09-26T05:52:06Z",
+              "completed_at": "2023-09-26T05:52:31Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 25012542255,
+              "id": 17127081402,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/6308627560/job/17127081402",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-09-26T05:52:06Z",
+              "completed_at": "2023-09-26T05:52:28Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 25263368109,
               "name": "eclipsefdn/eca",
-              "html_url": "https://accounts.eclipse.org/legal/eca/validation/173162",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-ros1/13",
               "conclusion": "success",
-              "started_at": "2023-09-11T09:55:20Z",
-              "completed_at": "2023-09-11T09:55:20Z",
+              "started_at": "2023-09-26T05:51:56Z",
+              "completed_at": "2023-09-26T05:51:56Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
