@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-10-30T11:06:12.347Z",
+    "date": "2023-10-30T12:13:26.813Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/6691881774"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/6692576932"
   },
   "projects": [
     {
@@ -1705,7 +1705,49 @@
       "default_branch": "master",
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls{/number}",
-      "pullRequests": [],
+      "pullRequests": [
+        {
+          "number": 155,
+          "title": "Fix/adapt highest qos for dds writer",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls/155",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/pull/155",
+          "state": "open",
+          "labels": [],
+          "draft": true,
+          "requested_reviewers": [],
+          "created_at": "2023-10-30T12:08:24Z",
+          "updated_at": "2023-10-30T12:08:24Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "3def02d34d96c7e94f366e8c98f629d90ab53391",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "fix/adapt-highest-qos-for-dds-writer",
+            "sha": "20b9c4a79c1ae29e993e136f1c851abc6ef798a9",
+            "label": "FutureInLogistics:fix/adapt-highest-qos-for-dds-writer"
+          },
+          "user": {
+            "login": "Fellfalla",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10533063?v=4",
+            "html_url": "https://github.com/Fellfalla"
+          },
+          "checks": [
+            {
+              "id": 25831236042,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-dds/155",
+              "conclusion": "failure",
+              "started_at": "2023-10-30T12:08:29Z",
+              "completed_at": "2023-10-30T12:08:29Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        }
+      ],
       "branchesComparison": {}
     },
     {
