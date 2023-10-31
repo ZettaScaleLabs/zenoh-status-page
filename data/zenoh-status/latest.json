@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-10-31T12:13:22.152Z",
+    "date": "2023-10-31T13:09:20.937Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/6706296264"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/6706975545"
   },
   "projects": [
     {
@@ -19,6 +19,185 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 577,
+          "title": "feat(575): adding support for inline certificates/keys as base64 encoded",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/577",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/577",
+          "state": "open",
+          "labels": [],
+          "draft": true,
+          "requested_reviewers": [
+            {
+              "login": "Mallets",
+              "avatar_url": "https://avatars.githubusercontent.com/u/3995219?v=4",
+              "html_url": "https://github.com/Mallets"
+            }
+          ],
+          "created_at": "2023-10-31T13:08:31Z",
+          "updated_at": "2023-10-31T13:08:31Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "b3ba1c421197443db33ff66d0f74973be35f4d48",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "feat/inline-certificate-data",
+            "sha": "146c6fef8c02da54bbfddbc68a0b9d337ccf54bb",
+            "label": "eclipse-zenoh:feat/inline-certificate-data"
+          },
+          "user": {
+            "login": "gabrik",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4215504?v=4",
+            "html_url": "https://github.com/gabrik"
+          },
+          "checks": [
+            {
+              "id": 18224472950,
+              "name": "Run checks on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706969290/job/18224472950",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:08:58Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224472635,
+              "name": "Run tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706969290/job/18224472635",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:08:47Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224472262,
+              "name": "Run checks on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706969290/job/18224472262",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:09:05Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224471977,
+              "name": "Run tests on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706969290/job/18224471977",
+              "status": "queued",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:08:37Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224471645,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706969290/job/18224471645",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:08:43Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224471319,
+              "name": "Run checks on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706969290/job/18224471319",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:08:45Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224320846,
+              "name": "Run checks on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706915083/job/18224320846",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:04:52Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224320508,
+              "name": "Run tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706915083/job/18224320508",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:04:53Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224320106,
+              "name": "Run checks on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706915083/job/18224320106",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-10-31T13:04:50Z",
+              "completed_at": "2023-10-31T13:08:53Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224319630,
+              "name": "Run tests on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706915083/job/18224319630",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:04:48Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224319206,
+              "name": "Run checks on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706915083/job/18224319206",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:04:49Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 18224318696,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/6706915083/job/18224318696",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2023-10-31T13:04:49Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 25855642203,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/577",
+              "conclusion": "success",
+              "started_at": "2023-10-31T13:08:35Z",
+              "completed_at": "2023-10-31T13:08:35Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 576,
           "title": "Bugfix: sh (dash) dose not support `&> /dev/null`.",
