@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-11-30T19:01:30.118Z",
+    "date": "2023-11-30T20:01:39.404Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7051051172"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7051629529"
   },
   "projects": [
     {
@@ -19,6 +19,201 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 607,
+          "title": "Update outdated dependencies",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/607",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/607",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2023-11-30T19:04:23Z",
+          "updated_at": "2023-11-30T19:04:23Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "7276d0c839c13f8eff5e3e5309db878e32009896",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "dependencies",
+            "sha": "3336af85c59546d80b0bd5f2dfaff5306be9f014",
+            "label": "eclipse-zenoh:dependencies"
+          },
+          "user": {
+            "login": "Mallets",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3995219?v=4",
+            "html_url": "https://github.com/Mallets"
+          },
+          "checks": [
+            {
+              "id": 19193304644,
+              "name": "Run no_std checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193304644",
+              "status": "completed",
+              "conclusion": "skipped",
+              "started_at": "2023-11-30T19:07:09Z",
+              "completed_at": "2023-11-30T19:07:09Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193281182,
+              "name": "Run no_std checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193281182",
+              "status": "completed",
+              "conclusion": "skipped",
+              "started_at": "2023-11-30T19:06:26Z",
+              "completed_at": "2023-11-30T19:06:26Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193214160,
+              "name": "Run checks on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193214160",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:38Z",
+              "completed_at": "2023-11-30T19:07:08Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193213769,
+              "name": "Run tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193213769",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:38Z",
+              "completed_at": "2023-11-30T19:13:10Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193213341,
+              "name": "Run checks on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193213341",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:41Z",
+              "completed_at": "2023-11-30T19:06:59Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193212877,
+              "name": "Run tests on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193212877",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:42Z",
+              "completed_at": "2023-11-30T19:11:38Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193212422,
+              "name": "Run checks on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193212422",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:36Z",
+              "completed_at": "2023-11-30T19:05:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193211989,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051090726/job/19193211989",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:36Z",
+              "completed_at": "2023-11-30T19:08:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193200560,
+              "name": "Run tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193200560",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:21Z",
+              "completed_at": "2023-11-30T19:12:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193200241,
+              "name": "Run checks on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193200241",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:18Z",
+              "completed_at": "2023-11-30T19:06:12Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193199949,
+              "name": "Run tests on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193199949",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:18Z",
+              "completed_at": "2023-11-30T19:13:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193199549,
+              "name": "Run checks on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193199549",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:18Z",
+              "completed_at": "2023-11-30T19:06:26Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193199198,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193199198",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:16Z",
+              "completed_at": "2023-11-30T19:09:05Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19193198721,
+              "name": "Run checks on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7051085783/job/19193198721",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2023-11-30T19:04:16Z",
+              "completed_at": "2023-11-30T19:05:15Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 26360094275,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/607",
+              "conclusion": "success",
+              "started_at": "2023-11-30T19:04:28Z",
+              "completed_at": "2023-11-30T19:04:28Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 605,
           "title": "Remove unnecessary executor spawning",
