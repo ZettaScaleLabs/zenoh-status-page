@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-12-07T15:01:36.704Z",
+    "date": "2023-12-07T16:01:35.882Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7129983694"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7130723623"
   },
   "projects": [
     {
@@ -96,10 +96,10 @@
               "id": 19414468144,
               "name": "Run tests on macOS-latest",
               "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7129734427/job/19414468144",
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "started_at": "2023-12-07T14:41:29Z",
-              "completed_at": null,
+              "completed_at": "2023-12-07T15:06:53Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
@@ -162,10 +162,10 @@
               "id": 19414466583,
               "name": "Run tests on macOS-latest",
               "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7129734125/job/19414466583",
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "started_at": "2023-12-07T14:40:38Z",
-              "completed_at": null,
+              "completed_at": "2023-12-07T15:06:10Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
@@ -2647,7 +2647,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:40:43Z",
-          "updated_at": "2023-12-04T13:51:54Z",
+          "updated_at": "2023-12-07T15:21:11Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -2735,6 +2735,97 @@
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-mqtt/pulls{/number}",
       "pullRequests": [
         {
+          "number": 24,
+          "title": "fix(23): properly parsing regex as Option<Regex>",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-mqtt/pulls/24",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/pull/24",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [
+            {
+              "login": "JEnoch",
+              "avatar_url": "https://avatars.githubusercontent.com/u/946462?v=4",
+              "html_url": "https://github.com/JEnoch"
+            }
+          ],
+          "created_at": "2023-12-07T15:31:44Z",
+          "updated_at": "2023-12-07T15:44:19Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "master",
+            "sha": "aaffebfbec0e592798842982e3526dcbcf874102",
+            "label": "eclipse-zenoh:master"
+          },
+          "head": {
+            "ref": "fix-23-deserialize-of-regex",
+            "sha": "1dd796983c0229c6712431af3b7736b6449d8a20",
+            "label": "eclipse-zenoh:fix-23-deserialize-of-regex"
+          },
+          "user": {
+            "login": "gabrik",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4215504?v=4",
+            "html_url": "https://github.com/gabrik"
+          },
+          "checks": [
+            {
+              "id": 19416594629,
+              "name": "Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/7130377724/job/19416594629",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-12-07T15:32:03Z",
+              "completed_at": "2023-12-07T15:40:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19416594220,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/7130377724/job/19416594220",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-12-07T15:31:59Z",
+              "completed_at": "2023-12-07T15:35:26Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19416447947,
+              "name": "Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/7130330835/job/19416447947",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-12-07T15:28:21Z",
+              "completed_at": "2023-12-07T15:34:43Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 19416447469,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/7130330835/job/19416447469",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2023-12-07T15:28:22Z",
+              "completed_at": "2023-12-07T15:31:44Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 26477404958,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-mqtt/24",
+              "conclusion": "success",
+              "started_at": "2023-12-07T15:31:48Z",
+              "completed_at": "2023-12-07T15:31:48Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
+        {
           "number": 21,
           "title": "Add sync-lockfile-and-toolchain action",
           "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-mqtt/pulls/21",
@@ -2744,7 +2835,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:59:41Z",
-          "updated_at": "2023-12-04T14:06:29Z",
+          "updated_at": "2023-12-07T15:21:22Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -2800,7 +2891,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:52:52Z",
-          "updated_at": "2023-12-04T14:00:07Z",
+          "updated_at": "2023-12-07T15:22:01Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -2889,7 +2980,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:42:30Z",
-          "updated_at": "2023-12-04T13:56:27Z",
+          "updated_at": "2023-12-07T15:23:16Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -2945,7 +3036,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:57:27Z",
-          "updated_at": "2023-12-04T14:04:45Z",
+          "updated_at": "2023-12-07T15:22:16Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -3244,7 +3335,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:55:57Z",
-          "updated_at": "2023-12-04T14:02:52Z",
+          "updated_at": "2023-12-07T15:22:30Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -3300,7 +3391,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2023-11-29T10:50:25Z",
-          "updated_at": "2023-12-04T13:58:02Z",
+          "updated_at": "2023-12-07T15:21:37Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
