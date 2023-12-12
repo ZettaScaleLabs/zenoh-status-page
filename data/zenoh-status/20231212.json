@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2023-12-12T18:01:40.557Z",
+    "date": "2023-12-12T19:01:31.343Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7185431037"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7186065771"
   },
   "projects": [
     {
@@ -19,124 +19,6 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
-        {
-          "number": 621,
-          "title": "This test didn't compile when 'transport_compression' feature is disa…",
-          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/621",
-          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/621",
-          "state": "open",
-          "labels": [],
-          "draft": false,
-          "requested_reviewers": [],
-          "created_at": "2023-12-12T15:58:23Z",
-          "updated_at": "2023-12-12T16:00:24Z",
-          "closed_at": null,
-          "merged_at": null,
-          "base": {
-            "ref": "master",
-            "sha": "0fd53fe30c655bbf390fe86179bb2dcf74183538",
-            "label": "eclipse-zenoh:master"
-          },
-          "head": {
-            "ref": "fix_compilation_for_transport_compression",
-            "sha": "deb74f531bb0b2185fd5e8b446fab43b876ecbee",
-            "label": "ZettaScaleLabs:fix_compilation_for_transport_compression"
-          },
-          "user": {
-            "login": "yellowhatter",
-            "avatar_url": "https://avatars.githubusercontent.com/u/104833606?v=4",
-            "html_url": "https://github.com/yellowhatter"
-          },
-          "checks": [
-            {
-              "id": 19564410557,
-              "name": "Run no_std checks",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564410557",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-12-12T16:05:32Z",
-              "completed_at": "2023-12-12T16:05:53Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 19564106492,
-              "name": "Run checks on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564106492",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-12-12T15:58:39Z",
-              "completed_at": "2023-12-12T16:03:23Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 19564106031,
-              "name": "Run tests on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564106031",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-12-12T15:58:39Z",
-              "completed_at": "2023-12-12T16:19:25Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 19564105533,
-              "name": "Run checks on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564105533",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-12-12T15:58:38Z",
-              "completed_at": "2023-12-12T16:05:24Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 19564105216,
-              "name": "Run tests on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564105216",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-12-12T15:58:42Z",
-              "completed_at": "2023-12-12T16:25:24Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 19564104832,
-              "name": "Run checks on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564104832",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2023-12-12T15:58:35Z",
-              "completed_at": "2023-12-12T16:01:46Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 19564104454,
-              "name": "Run tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7184014142/job/19564104454",
-              "status": "completed",
-              "conclusion": "failure",
-              "started_at": "2023-12-12T15:58:37Z",
-              "completed_at": "2023-12-12T16:14:27Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 26550373256,
-              "name": "eclipsefdn/eca",
-              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/621",
-              "conclusion": "success",
-              "started_at": "2023-12-12T15:58:27Z",
-              "completed_at": "2023-12-12T15:58:27Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
-            }
-          ]
-        },
         {
           "number": 613,
           "title": "Attachment api",
