@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2024-01-03T11:01:31.966Z",
+    "date": "2024-01-03T12:02:11.965Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7396441769"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7396979114"
   },
   "projects": [
     {
@@ -19,124 +19,6 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
-        {
-          "number": 634,
-          "title": "Fix `PutBuilder`/`Publication`'s divergent implementations",
-          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/634",
-          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/634",
-          "state": "open",
-          "labels": [],
-          "draft": false,
-          "requested_reviewers": [],
-          "created_at": "2023-12-26T11:03:48Z",
-          "updated_at": "2024-01-03T10:41:39Z",
-          "closed_at": null,
-          "merged_at": null,
-          "base": {
-            "ref": "master",
-            "sha": "256b07ee973392516b53356ca19ef770aab8f744",
-            "label": "eclipse-zenoh:master"
-          },
-          "head": {
-            "ref": "fix-publisher-putbuilder-discrepancy",
-            "sha": "32efa7da4242ca2eb074914593c529625bd1591b",
-            "label": "fuzzypixelz:fix-publisher-putbuilder-discrepancy"
-          },
-          "user": {
-            "login": "fuzzypixelz",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22870404?v=4",
-            "html_url": "https://github.com/fuzzypixelz"
-          },
-          "checks": [
-            {
-              "id": 20121209741,
-              "name": "Run no_std checks",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121209741",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2024-01-03T10:46:25Z",
-              "completed_at": "2024-01-03T10:46:46Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 20121070416,
-              "name": "Run checks on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121070416",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2024-01-03T10:41:19Z",
-              "completed_at": "2024-01-03T10:45:27Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 20121070258,
-              "name": "Run tests on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121070258",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2024-01-03T10:41:22Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 20121070080,
-              "name": "Run checks on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121070080",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2024-01-03T10:41:17Z",
-              "completed_at": "2024-01-03T10:46:18Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 20121069887,
-              "name": "Run tests on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121069887",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2024-01-03T10:41:23Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 20121069683,
-              "name": "Run checks on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121069683",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2024-01-03T10:41:16Z",
-              "completed_at": "2024-01-03T10:44:18Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 20121069479,
-              "name": "Run tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7396273529/job/20121069479",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2024-01-03T10:41:18Z",
-              "completed_at": "2024-01-03T11:00:25Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 26797587552,
-              "name": "eclipsefdn/eca",
-              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/634",
-              "conclusion": "success",
-              "started_at": "2024-01-03T10:41:41Z",
-              "completed_at": "2024-01-03T10:41:41Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
-            }
-          ]
-        },
         {
           "number": 632,
           "title": "Bump unsafe-libyaml from 0.2.9 to 0.2.10",
