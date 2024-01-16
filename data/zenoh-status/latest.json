@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2024-01-16T10:01:34.626Z",
+    "date": "2024-01-16T11:01:28.101Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7539924107"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7540625353"
   },
   "projects": [
     {
@@ -12,7 +12,7 @@
       "name": "zenoh",
       "description": "zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.",
       "html_url": "https://github.com/eclipse-zenoh/zenoh",
-      "updated_at": "2024-01-16T09:24:54Z",
+      "updated_at": "2024-01-16T10:52:15Z",
       "homepage": "https://zenoh.io",
       "language": "Rust",
       "default_branch": "main",
@@ -2310,17 +2310,17 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2024-01-11T10:06:40Z",
-          "updated_at": "2024-01-12T15:52:27Z",
+          "updated_at": "2024-01-16T10:40:37Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
             "ref": "main",
-            "sha": "1b7aa374462c70583484f8181b4adb56940e2557",
+            "sha": "317badd8abe1f9f62ac8f1b25c57b32723527542",
             "label": "eclipse-zenoh:main"
           },
           "head": {
             "ref": "simplified_load_plugin",
-            "sha": "ece38b9380b6ccf029e147b3ae886e783ffc5ab7",
+            "sha": "f6f8754c8045bba5c3091a48c23ca22494d657cd",
             "label": "eclipse-zenoh:simplified_load_plugin"
           },
           "user": {
@@ -2330,78 +2330,100 @@
           },
           "checks": [
             {
-              "id": 20379045258,
+              "id": 20525088321,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414214/job/20525088321",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-16T10:45:34Z",
+              "completed_at": "2024-01-16T10:45:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20525084069,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414361/job/20525084069",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-16T10:45:24Z",
+              "completed_at": "2024-01-16T10:45:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20524926455,
               "name": "Build on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7487173567/job/20379045258",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414361/job/20524926455",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-11T10:06:54Z",
-              "completed_at": "2024-01-11T10:10:34Z",
+              "started_at": "2024-01-16T10:40:51Z",
+              "completed_at": "2024-01-16T10:45:16Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20379044961,
+              "id": 20524926219,
               "name": "Build on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7487173567/job/20379044961",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414361/job/20524926219",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-11T10:06:51Z",
-              "completed_at": "2024-01-11T10:09:40Z",
+              "started_at": "2024-01-16T10:40:47Z",
+              "completed_at": "2024-01-16T10:45:07Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20379044652,
+              "id": 20524925982,
               "name": "Build on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7487173567/job/20379044652",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414361/job/20524925982",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-11T10:06:51Z",
-              "completed_at": "2024-01-11T10:08:54Z",
+              "started_at": "2024-01-16T10:40:47Z",
+              "completed_at": "2024-01-16T10:42:45Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20378904654,
+              "id": 20524925928,
               "name": "Build on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7487127371/job/20378904654",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414214/job/20524925928",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-11T10:03:15Z",
-              "completed_at": "2024-01-11T10:08:19Z",
+              "started_at": "2024-01-16T10:40:49Z",
+              "completed_at": "2024-01-16T10:45:19Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20378904256,
+              "id": 20524925678,
               "name": "Build on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7487127371/job/20378904256",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414214/job/20524925678",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-11T10:03:11Z",
-              "completed_at": "2024-01-11T10:06:14Z",
+              "started_at": "2024-01-16T10:40:51Z",
+              "completed_at": "2024-01-16T10:45:24Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20378903879,
+              "id": 20524925352,
               "name": "Build on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7487127371/job/20378903879",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-influxdb/actions/runs/7540414214/job/20524925352",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-11T10:03:09Z",
-              "completed_at": "2024-01-11T10:05:04Z",
+              "started_at": "2024-01-16T10:40:46Z",
+              "completed_at": "2024-01-16T10:42:35Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 26958201282,
+              "id": 26996861015,
               "name": "eclipsefdn/eca",
               "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-backend-influxdb/54",
               "conclusion": "success",
-              "started_at": "2024-01-12T15:52:01Z",
-              "completed_at": "2024-01-12T15:52:01Z",
+              "started_at": "2024-01-16T10:40:40Z",
+              "completed_at": "2024-01-16T10:40:40Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
@@ -2432,17 +2454,17 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2024-01-12T15:34:16Z",
-          "updated_at": "2024-01-12T15:50:31Z",
+          "updated_at": "2024-01-16T10:50:03Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
             "ref": "main",
-            "sha": "648035dce3acedf96dc6ab72122473f1a8d05985",
+            "sha": "c2fd02375cf96827c30a3b8b1bc8d11a3ebed5c1",
             "label": "eclipse-zenoh:main"
           },
           "head": {
             "ref": "simplified_load_plugin",
-            "sha": "ec6c20722ad8a501f689fa5ca46a9f87847ad578",
+            "sha": "ce9f841ddd6ead761e07ab54454b15e84e6ba077",
             "label": "eclipse-zenoh:simplified_load_plugin"
           },
           "user": {
@@ -2452,45 +2474,89 @@
           },
           "checks": [
             {
-              "id": 20430803758,
+              "id": 20525576717,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513711/job/20525576717",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-16T11:00:09Z",
+              "completed_at": "2024-01-16T11:00:09Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20525255126,
               "name": "Build on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7504243329/job/20430803758",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513711/job/20525255126",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-12T15:36:02Z",
-              "completed_at": "2024-01-12T15:44:35Z",
+              "started_at": "2024-01-16T10:50:17Z",
+              "completed_at": "2024-01-16T10:59:56Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20430803394,
+              "id": 20525254887,
               "name": "Build on macOS-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7504243329/job/20430803394",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513711/job/20525254887",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-12T15:35:58Z",
-              "completed_at": "2024-01-12T15:49:42Z",
+              "started_at": "2024-01-16T10:50:13Z",
+              "completed_at": "2024-01-16T10:55:45Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20430803062,
+              "id": 20525254580,
               "name": "Build on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7504243329/job/20430803062",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513711/job/20525254580",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2024-01-12T15:35:58Z",
-              "completed_at": "2024-01-12T15:42:32Z",
+              "started_at": "2024-01-16T10:50:15Z",
+              "completed_at": "2024-01-16T10:56:55Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 26957845229,
+              "id": 20525253904,
+              "name": "Build on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513493/job/20525253904",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-16T10:50:14Z",
+              "completed_at": "2024-01-16T11:01:02Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20525253516,
+              "name": "Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513493/job/20525253516",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2024-01-16T10:50:17Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20525253117,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb/actions/runs/7540513493/job/20525253117",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-16T10:50:13Z",
+              "completed_at": "2024-01-16T10:56:57Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 26997033627,
               "name": "eclipsefdn/eca",
               "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-backend-rocksdb/40",
               "conclusion": "success",
-              "started_at": "2024-01-12T15:35:54Z",
-              "completed_at": "2024-01-12T15:35:54Z",
+              "started_at": "2024-01-16T10:50:06Z",
+              "completed_at": "2024-01-16T10:50:06Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
