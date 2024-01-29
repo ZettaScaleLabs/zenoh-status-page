@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2024-01-29T11:01:40.791Z",
+    "date": "2024-01-29T12:01:59.650Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7695003708"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/7695678512"
   },
   "projects": [
     {
@@ -19,6 +19,135 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 696,
+          "title": "Improve project mangement (2)",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/696",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/696",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2024-01-29T11:38:28Z",
+          "updated_at": "2024-01-29T11:38:41Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "0943243da1a9eb14644897b13934be25610c4a94",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "feat-project-management-2",
+            "sha": "1cece4a285762ae0cd7a6eb0a085b846e667978e",
+            "label": "fuzzypixelz:feat-project-management-2"
+          },
+          "user": {
+            "login": "fuzzypixelz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22870404?v=4",
+            "html_url": "https://github.com/fuzzypixelz"
+          },
+          "checks": [
+            {
+              "id": 20968928559,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968928559",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:57:31Z",
+              "completed_at": "2024-01-29T11:57:31Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968311779,
+              "name": "Run checks on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968311779",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:44Z",
+              "completed_at": "2024-01-29T11:43:55Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968311567,
+              "name": "Run tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968311567",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:40Z",
+              "completed_at": "2024-01-29T11:55:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968311363,
+              "name": "Run checks on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968311363",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:44Z",
+              "completed_at": "2024-01-29T11:48:52Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968311107,
+              "name": "Run tests on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968311107",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:48Z",
+              "completed_at": "2024-01-29T11:57:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968310906,
+              "name": "Run checks on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968310906",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:38Z",
+              "completed_at": "2024-01-29T11:41:51Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968310533,
+              "name": "Run tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443968/job/20968310533",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:37Z",
+              "completed_at": "2024-01-29T11:55:17Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20968310531,
+              "name": "Enforce referencing a closing issue",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/7695443956/job/20968310531",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:38Z",
+              "completed_at": "2024-01-29T11:38:42Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 27218305360,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/696",
+              "conclusion": "success",
+              "started_at": "2024-01-29T11:38:32Z",
+              "completed_at": "2024-01-29T11:38:32Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 693,
           "title": "Feature tags for feature matrices",
