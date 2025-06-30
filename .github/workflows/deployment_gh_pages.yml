@@ -44,7 +44,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3.0.1
       - name: cleanup _site directory
         run: sudo rm -rf ./_site
 
