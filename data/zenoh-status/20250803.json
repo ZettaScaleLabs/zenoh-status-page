@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2025-08-03T16:06:58.361Z",
+    "date": "2025-08-03T18:14:02.365Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/16706883181"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/16707906411"
   },
   "projects": [
     {
@@ -16685,6 +16685,288 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-c",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-c/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 1075,
+          "title": "Convert zenoh-c library to zenoh-ffi",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-c/pulls/1075",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-c/pull/1075",
+          "state": "open",
+          "labels": [],
+          "draft": true,
+          "requested_reviewers": [],
+          "created_at": "2025-08-03T17:01:10Z",
+          "updated_at": "2025-08-03T17:01:22Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "25c54445bbbd9a3302187837323d0a4793b68d29",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "zenoh-ffi",
+            "sha": "d84adc91554ee643b766cf6ab166776b3d5d5606",
+            "label": "ZettaScaleLabs:zenoh-ffi"
+          },
+          "user": {
+            "login": "milyin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1909657?v=4",
+            "html_url": "https://github.com/milyin"
+          },
+          "checks": [
+            {
+              "id": 47287518200,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287518200",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:07:48Z",
+              "completed_at": "2025-08-03T17:07:50Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367097,
+              "name": "Build on windows-latest shm: false unstable: false",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367097",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:07:16Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367096,
+              "name": "Build on windows-latest shm: false unstable: true",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367096",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:07:46Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367095,
+              "name": "Build on macOS-latest shm: true unstable: true",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367095",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:03:57Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367094,
+              "name": "Build on macOS-latest shm: false unstable: true",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367094",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:15Z",
+              "completed_at": "2025-08-03T17:04:02Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367093,
+              "name": "Build on windows-latest shm: true unstable: true",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367093",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:07:01Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367090,
+              "name": "Build on windows-latest shm: true unstable: false",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367090",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:17Z",
+              "completed_at": "2025-08-03T17:07:12Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367086,
+              "name": "Build on macOS-latest shm: true unstable: false",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367086",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:04:07Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367080,
+              "name": "Build on ubuntu-latest shm: false unstable: true",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367080",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:04:29Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367077,
+              "name": "Build on macOS-latest shm: false unstable: false",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367077",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:05:08Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367074,
+              "name": "Build on ubuntu-latest shm: true unstable: true",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367074",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:18Z",
+              "completed_at": "2025-08-03T17:04:28Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367073,
+              "name": "Build on ubuntu-latest shm: true unstable: false",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367073",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:04:26Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367069,
+              "name": "Build on ubuntu-latest shm: false unstable: false",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367069",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:04:30Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367066,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367066",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-03T17:01:15Z",
+              "completed_at": "2025-08-03T17:01:19Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367060,
+              "name": "Cross compile on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367060",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:18Z",
+              "completed_at": "2025-08-03T17:03:16Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367056,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707359999/job/47287367056",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:18Z",
+              "completed_at": "2025-08-03T17:01:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367054,
+              "name": "Check codebase format with clang-format",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367054",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-03T17:01:18Z",
+              "completed_at": "2025-08-03T17:01:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367049,
+              "name": "Check zenoh-c using Rust 1.75 (windows-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367049",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:02:43Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367045,
+              "name": "Check zenoh-c using Rust 1.75 (macOS-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367045",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:01:58Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367043,
+              "name": "Cross compile on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367043",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:16Z",
+              "completed_at": "2025-08-03T17:02:46Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 47287367042,
+              "name": "Check zenoh-c using Rust 1.75 (ubuntu-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-c/actions/runs/16707360010/job/47287367042",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:15Z",
+              "completed_at": "2025-08-03T17:01:48Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 38179078195,
+              "name": "docs/readthedocs.org:zenoh-c",
+              "html_url": "https://app.readthedocs.org/projects/zenoh-c/builds/29072104/",
+              "conclusion": "failure",
+              "started_at": "2025-08-03T17:01:13Z",
+              "completed_at": "2025-08-03T17:01:13Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            },
+            {
+              "id": 38179079232,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-c/1075",
+              "conclusion": "success",
+              "started_at": "2025-08-03T17:01:25Z",
+              "completed_at": "2025-08-03T17:01:25Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 1073,
           "title": "Sync `Cargo.lock` with Zenoh `05e20cf` from `2025-08-01`",
