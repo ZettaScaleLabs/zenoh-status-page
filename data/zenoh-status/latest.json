@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2025-08-22T06:06:59.529Z",
+    "date": "2025-08-22T07:08:47.813Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17147520268"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17148573805"
   },
   "projects": [
     {
@@ -17669,6 +17669,126 @@
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls{/number}",
       "pullRequests": [
         {
+          "number": 555,
+          "title": "ci: fix bump pattern for daily release workflow",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls/555",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/pull/555",
+          "state": "open",
+          "labels": [
+            "internal"
+          ],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2025-08-22T07:00:21Z",
+          "updated_at": "2025-08-22T07:00:29Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "5a720acaac501ab17f20120ab614dbe56ae760df",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "ci/fix-bump-deps-pattern",
+            "sha": "f64d4c525d16c25f6404779c70c1db6db0642186",
+            "label": "ZettaScaleLabs:ci/fix-bump-deps-pattern"
+          },
+          "user": {
+            "login": "diogomatsubara",
+            "avatar_url": "https://avatars.githubusercontent.com/u/105662?v=4",
+            "html_url": "https://github.com/diogomatsubara"
+          },
+          "checks": [
+            {
+              "id": 48649297411,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148488614/job/48649297411",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:00:37Z",
+              "completed_at": "2025-08-22T07:00:40Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649290483,
+              "name": "Check eclipse-zenoh/zenoh-plugin-dds using Rust 1.75",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148485987/job/48649290483",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:00:28Z",
+              "completed_at": "2025-08-22T07:01:14Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649290474,
+              "name": "Build on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148485987/job/48649290474",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-08-22T07:00:28Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649290466,
+              "name": "Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148485987/job/48649290466",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-08-22T07:00:28Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649290457,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148485987/job/48649290457",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-08-22T07:00:28Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649290450,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148485987/job/48649290450",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:00:28Z",
+              "completed_at": "2025-08-22T07:00:31Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649289995,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-dds/actions/runs/17148485796/job/48649289995",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-22T07:00:27Z",
+              "completed_at": "2025-08-22T07:00:31Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 38676306952,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-dds/555",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:00:32Z",
+              "completed_at": "2025-08-22T07:00:32Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
+        {
           "number": 460,
           "title": "feat: ignore unknown configuration fileds",
           "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-dds/pulls/460",
@@ -17858,6 +17978,137 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-mqtt/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 480,
+          "title": "ci: fix bump pattern for daily release workflow",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-mqtt/pulls/480",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/pull/480",
+          "state": "open",
+          "labels": [
+            "internal"
+          ],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2025-08-22T06:54:14Z",
+          "updated_at": "2025-08-22T06:54:31Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "69db677fa2adcb9df8dd43fa07b7b90a113a6d19",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "ci/fix-bump-deps-pattern",
+            "sha": "b472f4adb238bc5640821a22c7b0952dc3064b9b",
+            "label": "ZettaScaleLabs:ci/fix-bump-deps-pattern"
+          },
+          "user": {
+            "login": "diogomatsubara",
+            "avatar_url": "https://avatars.githubusercontent.com/u/105662?v=4",
+            "html_url": "https://github.com/diogomatsubara"
+          },
+          "checks": [
+            {
+              "id": 48649425393,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372213/job/48649425393",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:02:39Z",
+              "completed_at": "2025-08-22T07:02:42Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648973635,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148376249/job/48648973635",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:37Z",
+              "completed_at": "2025-08-22T06:54:39Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648960271,
+              "name": "Check eclipse-zenoh/zenoh-plugin-mqtt using Rust 1.75",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372213/job/48648960271",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:21Z",
+              "completed_at": "2025-08-22T06:54:59Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648960259,
+              "name": "Build on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372213/job/48648960259",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:21Z",
+              "completed_at": "2025-08-22T07:02:37Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648960254,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372213/job/48648960254",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:20Z",
+              "completed_at": "2025-08-22T06:59:11Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648960248,
+              "name": "Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372213/job/48648960248",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:21Z",
+              "completed_at": "2025-08-22T06:59:41Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648960244,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372213/job/48648960244",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:20Z",
+              "completed_at": "2025-08-22T06:54:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48648960232,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-mqtt/actions/runs/17148372178/job/48648960232",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-08-22T06:54:20Z",
+              "completed_at": "2025-08-22T06:54:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 38676208912,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-mqtt/480",
+              "conclusion": "success",
+              "started_at": "2025-08-22T06:54:34Z",
+              "completed_at": "2025-08-22T06:54:34Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 411,
           "title": "Implement Unsubscription",
@@ -18250,7 +18501,106 @@
       "default_branch": "main",
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-ros1/pulls{/number}",
-      "pullRequests": [],
+      "pullRequests": [
+        {
+          "number": 232,
+          "title": "ci: fix bump pattern for daily release workflow",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-plugin-ros1/pulls/232",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/pull/232",
+          "state": "open",
+          "labels": [
+            "bug"
+          ],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2025-08-22T07:04:12Z",
+          "updated_at": "2025-08-22T07:05:18Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "16ebad5959f62b168a12fe4ec2f147b3812b356b",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "ci/fix-bump-pattern",
+            "sha": "a0c6e7a5ca350adbac7b15b92979e37d740ca044",
+            "label": "ZettaScaleLabs:ci/fix-bump-pattern"
+          },
+          "user": {
+            "login": "diogomatsubara",
+            "avatar_url": "https://avatars.githubusercontent.com/u/105662?v=4",
+            "html_url": "https://github.com/diogomatsubara"
+          },
+          "checks": [
+            {
+              "id": 48649593540,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/17148588968/job/48649593540",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:05:25Z",
+              "completed_at": "2025-08-22T07:05:30Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649589256,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/17148587501/job/48649589256",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:05:20Z",
+              "completed_at": "2025-08-22T07:05:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649588966,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/17148587481/job/48649588966",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:05:20Z",
+              "completed_at": "2025-08-22T07:05:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649588944,
+              "name": "Run tests on ubuntu-22.04",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/17148587481/job/48649588944",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-08-22T07:05:19Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48649588940,
+              "name": "Run checks on ubuntu-22.04",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-plugin-ros1/actions/runs/17148587481/job/48649588940",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:05:20Z",
+              "completed_at": "2025-08-22T07:06:57Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 38676391619,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-plugin-ros1/232",
+              "conclusion": "success",
+              "started_at": "2025-08-22T07:05:21Z",
+              "completed_at": "2025-08-22T07:05:21Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        }
+      ],
       "branchesComparison": {}
     },
     {
