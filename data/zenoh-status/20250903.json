@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2025-09-03T16:05:16.478Z",
+    "date": "2025-09-03T17:04:37.908Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17439244041"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17440640586"
   },
   "projects": [
     {
@@ -12,7 +12,7 @@
       "name": "zenoh",
       "description": "zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.",
       "html_url": "https://github.com/eclipse-zenoh/zenoh",
-      "updated_at": "2025-09-03T15:09:53Z",
+      "updated_at": "2025-09-03T16:32:35Z",
       "homepage": "https://zenoh.io",
       "language": "Rust",
       "default_branch": "main",
@@ -102,6 +102,17 @@
             "html_url": "https://github.com/diogomatsubara"
           },
           "checks": [
+            {
+              "id": 49518866744,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17436542614/job/49518866744",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:19:41Z",
+              "completed_at": "2025-09-03T16:19:44Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
             {
               "id": 49515483250,
               "name": "Typos Check",
@@ -227,10 +238,10 @@
               "id": 49515473521,
               "name": "Unit tests on ubuntu-latest",
               "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17436542614/job/49515473521",
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "started_at": "2025-09-03T15:41:43Z",
-              "completed_at": null,
+              "completed_at": "2025-09-03T16:19:39Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
@@ -300,22 +311,22 @@
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             },
             {
-              "id": 38967950596,
-              "name": "codecov/project",
-              "html_url": "https://app.codecov.io/gh/eclipse-zenoh/zenoh/commit/b0940430fde5d0dc9bc3253c769a899cafcc5a85",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:08:22Z",
-              "completed_at": "2025-09-03T15:08:22Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4"
-            },
-            {
               "id": 38967951066,
               "name": "codecov/patch",
               "html_url": "https://app.codecov.io/gh/eclipse-zenoh/zenoh/commit/b0940430fde5d0dc9bc3253c769a899cafcc5a85",
               "conclusion": "success",
               "started_at": "2025-09-03T15:08:23Z",
               "completed_at": "2025-09-03T15:08:23Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4"
+            },
+            {
+              "id": 38970658260,
+              "name": "codecov/project",
+              "html_url": "https://app.codecov.io/gh/eclipse-zenoh/zenoh/commit/b0940430fde5d0dc9bc3253c769a899cafcc5a85",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:19:41Z",
+              "completed_at": "2025-09-03T16:19:41Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4"
             }
@@ -340,17 +351,17 @@
             }
           ],
           "created_at": "2025-09-02T07:25:13Z",
-          "updated_at": "2025-09-03T15:49:51Z",
+          "updated_at": "2025-09-03T17:00:44Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
             "ref": "main",
-            "sha": "b6cb64a8f74886a2ff61619e8b7ca1fc7249223d",
+            "sha": "413bc530a5191fb5ed02b716efe54d82ad395f05",
             "label": "eclipse-zenoh:main"
           },
           "head": {
             "ref": "shm_allocators",
-            "sha": "51895c185ebfcc024a619a52621625cf9f619df1",
+            "sha": "0e727eef0187db51861b840bd42d3818bf398f79",
             "label": "ZettaScaleLabs:shm_allocators"
           },
           "user": {
@@ -360,392 +371,177 @@
           },
           "checks": [
             {
-              "id": 49516220498,
-              "name": "Unit tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220498",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:50:02Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220491,
-              "name": "Unit tests on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220491",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:50:04Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220486,
-              "name": "Unit tests on macos-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220486",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:50:09Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220455,
+              "id": 49522185604,
               "name": "Lints and doc tests on macos-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220455",
-              "status": "completed",
-              "conclusion": "failure",
-              "started_at": "2025-09-03T15:50:09Z",
-              "completed_at": "2025-09-03T16:01:07Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220444,
-              "name": "Lints and doc tests on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220444",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185604",
               "status": "in_progress",
               "conclusion": null,
-              "started_at": "2025-09-03T15:50:04Z",
+              "started_at": "2025-09-03T17:01:01Z",
               "completed_at": null,
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 49516220432,
+              "id": 49522185595,
               "name": "Lints and doc tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220432",
-              "status": "completed",
-              "conclusion": "failure",
-              "started_at": "2025-09-03T15:50:03Z",
-              "completed_at": "2025-09-03T16:04:34Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220430,
-              "name": "Check zenoh using Rust 1.75 (macos-latest)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220430",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:50:09Z",
-              "completed_at": "2025-09-03T15:51:03Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220427,
-              "name": "Check zenoh using Rust 1.75 (ubuntu-latest)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220427",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:50:03Z",
-              "completed_at": "2025-09-03T15:51:01Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220421,
-              "name": "Check zenoh using Rust 1.75 (windows-latest)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220421",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:50:04Z",
-              "completed_at": "2025-09-03T15:52:25Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516220417,
-              "name": "Check zenoh build without Cargo.lock on Rust 1.75",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516220417",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:50:02Z",
-              "completed_at": "2025-09-03T15:51:02Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516212140,
-              "name": "Coverage (ubuntu-latest, nightly)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516212140",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185595",
               "status": "in_progress",
               "conclusion": null,
-              "started_at": "2025-09-03T15:49:57Z",
+              "started_at": "2025-09-03T17:00:59Z",
               "completed_at": null,
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 49516212131,
+              "id": 49522185594,
+              "name": "Lints and doc tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185594",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185593,
+              "name": "Unit tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185593",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185592,
+              "name": "Unit tests on macos-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185592",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185590,
+              "name": "Unit tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185590",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185588,
+              "name": "Check zenoh using Rust 1.75 (macos-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185588",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:01:02Z",
+              "completed_at": "2025-09-03T17:02:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185585,
+              "name": "Check zenoh using Rust 1.75 (windows-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185585",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": "2025-09-03T17:03:44Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185582,
+              "name": "Check zenoh using Rust 1.75 (ubuntu-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185582",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": "2025-09-03T17:02:01Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522185557,
+              "name": "Check zenoh build without Cargo.lock on Rust 1.75",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522185557",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:00:59Z",
+              "completed_at": "2025-09-03T17:02:00Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522173417,
               "name": "markdown_lint",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516212131",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522173417",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2025-09-03T15:49:57Z",
-              "completed_at": "2025-09-03T15:50:02Z",
+              "started_at": "2025-09-03T17:00:50Z",
+              "completed_at": "2025-09-03T17:00:57Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 49516212090,
-              "name": "determine-runner",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516212090",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:49:57Z",
-              "completed_at": "2025-09-03T15:50:00Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49516212082,
+              "id": 49522173385,
               "name": "Typos Check",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438881189/job/49516212082",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522173385",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2025-09-03T15:49:58Z",
-              "completed_at": "2025-09-03T15:50:04Z",
+              "started_at": "2025-09-03T17:00:50Z",
+              "completed_at": "2025-09-03T17:00:58Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 49516210677,
+              "id": 49522173369,
+              "name": "determine-runner",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522173369",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:00:50Z",
+              "completed_at": "2025-09-03T17:00:56Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522173360,
+              "name": "Coverage (ubuntu-latest, nightly)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440555255/job/49522173360",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:00:51Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522172785,
               "name": "Check PR labels / main",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438880789/job/49516210677",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17440554901/job/49522172785",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2025-09-03T15:49:58Z",
-              "completed_at": "2025-09-03T15:50:01Z",
+              "started_at": "2025-09-03T17:00:50Z",
+              "completed_at": "2025-09-03T17:00:53Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 38969573626,
+              "id": 38972029100,
               "name": "eclipsefdn/eca",
               "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/2117",
               "conclusion": "success",
-              "started_at": "2025-09-03T15:49:56Z",
-              "completed_at": "2025-09-03T15:49:56Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
-            }
-          ]
-        },
-        {
-          "number": 2116,
-          "title": "Optimize SHM metadata storage (adds ~300k msgs\\sec)",
-          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/2116",
-          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/2116",
-          "state": "open",
-          "labels": [
-            "enhancement",
-            "release"
-          ],
-          "draft": false,
-          "requested_reviewers": [
-            {
-              "login": "YuanYuYuan",
-              "avatar_url": "https://avatars.githubusercontent.com/u/10692887?v=4",
-              "html_url": "https://github.com/YuanYuYuan"
-            }
-          ],
-          "created_at": "2025-09-02T07:22:05Z",
-          "updated_at": "2025-09-03T15:45:28Z",
-          "closed_at": null,
-          "merged_at": null,
-          "base": {
-            "ref": "main",
-            "sha": "b6cb64a8f74886a2ff61619e8b7ca1fc7249223d",
-            "label": "eclipse-zenoh:main"
-          },
-          "head": {
-            "ref": "optimize_shm_metadata",
-            "sha": "582b8c5797b27e9cd1bf8c7e24ee67a8a6754e0d",
-            "label": "ZettaScaleLabs:optimize_shm_metadata"
-          },
-          "user": {
-            "login": "yellowhatter",
-            "avatar_url": "https://avatars.githubusercontent.com/u/104833606?v=4",
-            "html_url": "https://github.com/yellowhatter"
-          },
-          "checks": [
-            {
-              "id": 49515830481,
-              "name": "Lints and doc tests on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830481",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:45:40Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830478,
-              "name": "Unit tests on windows-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830478",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:45:40Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830476,
-              "name": "Check zenoh using Rust 1.75 (ubuntu-latest)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830476",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:40Z",
-              "completed_at": "2025-09-03T15:46:38Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830475,
-              "name": "Unit tests on macos-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830475",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:45:45Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830474,
-              "name": "Lints and doc tests on macos-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830474",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:46Z",
-              "completed_at": "2025-09-03T15:56:31Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830470,
-              "name": "Lints and doc tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830470",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:39Z",
-              "completed_at": "2025-09-03T15:55:44Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830460,
-              "name": "Check zenoh using Rust 1.75 (macos-latest)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830460",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:43Z",
-              "completed_at": "2025-09-03T15:47:07Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830455,
-              "name": "Unit tests on ubuntu-latest",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830455",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:45:41Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830439,
-              "name": "Check zenoh using Rust 1.75 (windows-latest)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830439",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:42Z",
-              "completed_at": "2025-09-03T15:51:40Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515830396,
-              "name": "Check zenoh build without Cargo.lock on Rust 1.75",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515830396",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:40Z",
-              "completed_at": "2025-09-03T15:46:42Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515821948,
-              "name": "markdown_lint",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515821948",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:34Z",
-              "completed_at": "2025-09-03T15:45:39Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515821931,
-              "name": "Check PR labels / main",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774811/job/49515821931",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:34Z",
-              "completed_at": "2025-09-03T15:45:38Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515821891,
-              "name": "Typos Check",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515821891",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:35Z",
-              "completed_at": "2025-09-03T15:45:41Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515821883,
-              "name": "Coverage (ubuntu-latest, nightly)",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515821883",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2025-09-03T15:45:35Z",
-              "completed_at": null,
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 49515821834,
-              "name": "determine-runner",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/17438774826/job/49515821834",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:34Z",
-              "completed_at": "2025-09-03T15:45:37Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 38969413555,
-              "name": "eclipsefdn/eca",
-              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/2116",
-              "conclusion": "success",
-              "started_at": "2025-09-03T15:45:32Z",
-              "completed_at": "2025-09-03T15:45:32Z",
+              "started_at": "2025-09-03T17:00:49Z",
+              "completed_at": "2025-09-03T17:00:49Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
@@ -12832,42 +12628,6 @@
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
           ]
-        },
-        {
-          "number": 966,
-          "title": "Do not send scout messages if autoconnect is empty",
-          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/966",
-          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/966",
-          "state": "open",
-          "labels": [],
-          "draft": true,
-          "requested_reviewers": [
-            {
-              "login": "OlivierHecart",
-              "avatar_url": "https://avatars.githubusercontent.com/u/1199006?v=4",
-              "html_url": "https://github.com/OlivierHecart"
-            }
-          ],
-          "created_at": "2024-04-23T13:07:43Z",
-          "updated_at": "2025-04-08T10:02:07Z",
-          "closed_at": null,
-          "merged_at": null,
-          "base": {
-            "ref": "main",
-            "sha": "3bb792e4d07626835cd744bfffbad1cbedad5eaf",
-            "label": "eclipse-zenoh:main"
-          },
-          "head": {
-            "ref": "scouting_autoconnect",
-            "sha": "84fd0fa83ba9c3a05829f29c344cd51e73101770",
-            "label": "eclipse-zenoh:scouting_autoconnect"
-          },
-          "user": {
-            "login": "Mallets",
-            "avatar_url": "https://avatars.githubusercontent.com/u/3995219?v=4",
-            "html_url": "https://github.com/Mallets"
-          },
-          "checks": []
         }
       ],
       "branchesComparison": {}
@@ -13797,7 +13557,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2025-08-10T17:45:08Z",
-          "updated_at": "2025-08-11T09:23:54Z",
+          "updated_at": "2025-09-03T16:58:47Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -13816,6 +13576,809 @@
             "html_url": "https://github.com/clolckliang"
           },
           "checks": [
+            {
+              "id": 49522414131,
+              "name": "Modular build on ubuntu-latest (0, 0, 1, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414131",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414106,
+              "name": "Modular build on ubuntu-latest (0, 0, 0, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414106",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": "2025-09-03T17:04:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414095,
+              "name": "Modular build on ubuntu-latest (1, 0, 1, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414095",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414094,
+              "name": "Modular build on ubuntu-latest (0, 1, 0, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414094",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414093,
+              "name": "Modular build on ubuntu-latest (0, 0, 0, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414093",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": "2025-09-03T17:04:15Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414086,
+              "name": "Modular build on ubuntu-latest (1, 0, 0, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414086",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": "2025-09-03T17:04:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414075,
+              "name": "Modular build on ubuntu-latest (0, 0, 1, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414075",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": "2025-09-03T17:04:26Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414071,
+              "name": "Modular build on ubuntu-latest (0, 1, 1, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414071",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414063,
+              "name": "Modular build on ubuntu-latest (0, 1, 1, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414063",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": "2025-09-03T17:04:26Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414060,
+              "name": "Modular build on ubuntu-latest (0, 1, 0, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414060",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:45Z",
+              "completed_at": "2025-09-03T17:04:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414057,
+              "name": "Modular build on ubuntu-latest (1, 0, 0, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414057",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": "2025-09-03T17:04:33Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414055,
+              "name": "Modular build on ubuntu-latest (1, 1, 0, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414055",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414045,
+              "name": "Modular build on ubuntu-latest (1, 1, 1, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414045",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414039,
+              "name": "Modular build on ubuntu-latest (1, 1, 1, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414039",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414037,
+              "name": "Test multicast and unicast fragmentation",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414037",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414036,
+              "name": "Connection restore test",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414036",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414035,
+              "name": "Modular build on ubuntu-latest (1, 0, 1, 0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414035",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414034,
+              "name": "Test attachments",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414034",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:45Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414033,
+              "name": "Modular build on ubuntu-latest (1, 1, 0, 1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414033",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522414021,
+              "name": "Test examples memory leak",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522414021",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49522413984,
+              "name": "Build and test in single thread on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49522413984",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T17:03:44Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521996993,
+              "name": "Cppcheck (reported by Codacy)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/runs/49521996993",
+              "status": "completed",
+              "conclusion": "neutral",
+              "started_at": "2025-09-03T16:58:38Z",
+              "completed_at": "2025-09-03T16:58:42Z",
+              "slug": "github-advanced-security",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521996679,
+              "name": "Markdownlint (reported by Codacy)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/runs/49521996679",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:38Z",
+              "completed_at": "2025-09-03T16:58:47Z",
+              "slug": "github-advanced-security",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521996620,
+              "name": "Pylintpython3 (reported by Codacy)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/runs/49521996620",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:38Z",
+              "completed_at": "2025-09-03T16:58:46Z",
+              "slug": "github-advanced-security",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521995023,
+              "name": "Shellcheck (reported by Codacy)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/runs/49521995023",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:36Z",
+              "completed_at": "2025-09-03T16:58:38Z",
+              "slug": "github-advanced-security",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521993594,
+              "name": "Flawfinder (reported by Codacy)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/runs/49521993594",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:35Z",
+              "completed_at": "2025-09-03T16:58:38Z",
+              "slug": "github-advanced-security",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958898,
+              "name": "Build static libs / Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958898",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:16Z",
+              "completed_at": "2025-09-03T16:58:37Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958886,
+              "name": "Build shared libs / Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958886",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:17Z",
+              "completed_at": "2025-09-03T16:58:37Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958870,
+              "name": "Run integration tests / Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958870",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958865,
+              "name": "Build static libs / Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958865",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958860,
+              "name": "Build static libs / Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958860",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:58:37Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958850,
+              "name": "Build shared libs / Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958850",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:58:28Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958847,
+              "name": "Build static libs / Build on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958847",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:59:52Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958846,
+              "name": "Run integration tests / Build on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958846",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:17Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958845,
+              "name": "Build shared libs / Build on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958845",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T17:00:15Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958834,
+              "name": "Build shared libs / Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958834",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958825,
+              "name": "Test examples without router",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958825",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:41Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958807,
+              "name": "P2p unicast test",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958807",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:59:09Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958804,
+              "name": "Build raweth transport on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958804",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:58:37Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958803,
+              "name": "P2p multicast test (0)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958803",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:58:57Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958802,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958802",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:58:17Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958780,
+              "name": "P2p multicast test (1)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958780",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:59:02Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958776,
+              "name": "Check compilation with unstable API",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958776",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:59:29Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958754,
+              "name": "Check compilation without liveliness",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958754",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958734,
+              "name": "Build Zenoh from source",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958734",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T17:03:41Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958732,
+              "name": "Check compilation without interests",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958732",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:30Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958713,
+              "name": "Check compilation without scouting",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958713",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T16:58:32Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958710,
+              "name": "Check c99 compilation",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958710",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958659,
+              "name": "Memory leak unit tests",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958659",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T17:00:05Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958652,
+              "name": "Run unit tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958652",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:11Z",
+              "completed_at": "2025-09-03T17:00:00Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958645,
+              "name": "Check codebase format with clang-format",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958645",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:18Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521958642,
+              "name": "Run peer unicast test on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644754/job/49521958642",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:59:55Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957962,
+              "name": "Build and test zenoh-cpp on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644747/job/49521957962",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957961,
+              "name": "Build and test zenoh-cpp on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644747/job/49521957961",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957959,
+              "name": "Build and test zenoh-cpp on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644747/job/49521957959",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:17Z",
+              "completed_at": "2025-09-03T17:03:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957951,
+              "name": "Build and test zenoh-cpp on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644747/job/49521957951",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957942,
+              "name": "Build and test zenoh-cpp on macOS-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644747/job/49521957942",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:17Z",
+              "completed_at": "2025-09-03T17:02:51Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957933,
+              "name": "Build and test zenoh-cpp on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644747/job/49521957933",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957895,
+              "name": "Codacy Security Scan with shellcheck",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644746/job/49521957895",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:45Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957853,
+              "name": "Codacy Security Scan with flawfinder",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644746/job/49521957853",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:51Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957852,
+              "name": "Codacy Security Scan with pylintpython3",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644746/job/49521957852",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T16:58:45Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957851,
+              "name": "Codacy Security Scan with cppcheck",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644746/job/49521957851",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:54Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957841,
+              "name": "Codacy Security Scan with markdownlint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644746/job/49521957841",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:10Z",
+              "completed_at": "2025-09-03T16:58:47Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957652,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644743/job/49521957652",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T17:00:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957224,
+              "name": "Build on ubuntu-22.04",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644735/job/49521957224",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T17:01:15Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957171,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644738/job/49521957171",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T16:59:04Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957057,
+              "name": "Build on ubuntu-latest for pico_w",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644744/job/49521957057",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957048,
+              "name": "Build on ubuntu-latest for pico",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644744/job/49521957048",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T17:03:53Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957045,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644741/job/49521957045",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T16:59:12Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957039,
+              "name": "Build on ubuntu-latest for pico2",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644744/job/49521957039",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T17:02:35Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957026,
+              "name": "Build on ubuntu-latest for pico2_w",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644744/job/49521957026",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521957011,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644734/job/49521957011",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T17:01:36Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49521956971,
+              "name": "Build on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/16864644736/job/49521956971",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-03T16:58:09Z",
+              "completed_at": "2025-09-03T16:59:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
             {
               "id": 47800732641,
               "name": "Check PR labels / main",
@@ -13849,12 +14412,12 @@
               "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
             },
             {
-              "id": 38364270502,
+              "id": 38971958325,
               "name": "eclipsefdn/eca",
               "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1012",
               "conclusion": "failure",
-              "started_at": "2025-08-11T09:23:58Z",
-              "completed_at": "2025-08-11T09:23:58Z",
+              "started_at": "2025-09-03T16:58:41Z",
+              "completed_at": "2025-09-03T16:58:41Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
@@ -14797,76 +15360,6 @@
               "conclusion": "success",
               "started_at": "2025-06-17T13:39:43Z",
               "completed_at": "2025-06-17T13:39:43Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
-            }
-          ]
-        },
-        {
-          "number": 923,
-          "title": "Peer serial transport for STM32 NUCLEO boards",
-          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls/923",
-          "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/pull/923",
-          "state": "open",
-          "labels": [
-            "enhancement"
-          ],
-          "draft": false,
-          "requested_reviewers": [
-            {
-              "login": "jean-roland",
-              "avatar_url": "https://avatars.githubusercontent.com/u/47689290?v=4",
-              "html_url": "https://github.com/jean-roland"
-            }
-          ],
-          "created_at": "2025-03-29T19:13:42Z",
-          "updated_at": "2025-08-04T19:57:20Z",
-          "closed_at": null,
-          "merged_at": null,
-          "base": {
-            "ref": "main",
-            "sha": "22b5b749b7cea4397d05e8d0cbe8227f03efa13f",
-            "label": "eclipse-zenoh:main"
-          },
-          "head": {
-            "ref": "stm32/serial",
-            "sha": "9d3cb1c3814c78ec27a709c9ab20b10849d0f96c",
-            "label": "spynetcamera:stm32/serial"
-          },
-          "user": {
-            "login": "spynetcamera",
-            "avatar_url": "https://avatars.githubusercontent.com/u/84154390?v=4",
-            "html_url": "https://github.com/spynetcamera"
-          },
-          "checks": [
-            {
-              "id": 41237316442,
-              "name": "Check PR labels / main",
-              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/14695834988/job/41237316442",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2025-04-27T20:28:10Z",
-              "completed_at": "2025-04-27T20:28:12Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 35882684641,
-              "name": "eclipsefdn/eca",
-              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/923",
-              "conclusion": "failure",
-              "started_at": "2025-04-27T20:28:06Z",
-              "completed_at": "2025-04-27T20:28:06Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
-            },
-            {
-              "id": 35882687001,
-              "name": "docs/readthedocs.org:zenoh-pico",
-              "html_url": "https://zenoh-pico--923.org.readthedocs.build/en/923/",
-              "conclusion": "success",
-              "started_at": "2025-04-27T20:28:41Z",
-              "completed_at": "2025-04-27T20:28:41Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
             }
