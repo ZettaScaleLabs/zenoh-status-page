@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2025-09-08T09:05:52.646Z",
+    "date": "2025-09-08T10:05:10.992Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17545591036"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17547146922"
   },
   "projects": [
     {
@@ -15307,7 +15307,193 @@
       "default_branch": "main",
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-python",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-python/pulls{/number}",
-      "pullRequests": [],
+      "pullRequests": [
+        {
+          "number": 583,
+          "title": "add shared-memory API",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-python/pulls/583",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-python/pull/583",
+          "state": "open",
+          "labels": [
+            "new feature"
+          ],
+          "draft": true,
+          "requested_reviewers": [
+            {
+              "login": "yellowhatter",
+              "avatar_url": "https://avatars.githubusercontent.com/u/104833606?v=4",
+              "html_url": "https://github.com/yellowhatter"
+            },
+            {
+              "login": "DenisBiryukov91",
+              "avatar_url": "https://avatars.githubusercontent.com/u/155981813?v=4",
+              "html_url": "https://github.com/DenisBiryukov91"
+            }
+          ],
+          "created_at": "2025-09-08T09:34:18Z",
+          "updated_at": "2025-09-08T09:34:53Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "b25fa55a2a04dcde9938cc93d21f35966f8c781c",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "shm",
+            "sha": "6aabc5cf562e6ab04f774409d17e9f26c3068489",
+            "label": "ZettaScaleLabs:shm"
+          },
+          "user": {
+            "login": "wyfo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6006079?v=4",
+            "html_url": "https://github.com/wyfo"
+          },
+          "checks": [
+            {
+              "id": 49828980764,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828980764",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:38:37Z",
+              "completed_at": "2025-09-08T09:38:41Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828801272,
+              "name": "build (3.12)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828801272",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:36:25Z",
+              "completed_at": "2025-09-08T09:38:32Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828801259,
+              "name": "build (3.13-dev)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828801259",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:36:25Z",
+              "completed_at": "2025-09-08T09:38:28Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828801255,
+              "name": "build (3.10)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828801255",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:36:24Z",
+              "completed_at": "2025-09-08T09:38:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828801245,
+              "name": "build (3.11)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828801245",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:36:24Z",
+              "completed_at": "2025-09-08T09:38:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828801244,
+              "name": "build (3.9)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828801244",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:36:26Z",
+              "completed_at": "2025-09-08T09:38:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828671979,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546371708/job/49828671979",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-08T09:34:48Z",
+              "completed_at": "2025-09-08T09:34:52Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828643087,
+              "name": "check",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828643087",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-08T09:34:26Z",
+              "completed_at": "2025-09-08T09:36:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828643062,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828643062",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-08T09:34:25Z",
+              "completed_at": "2025-09-08T09:34:28Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828643033,
+              "name": "Check zenoh-python using Rust 1.75",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362664/job/49828643033",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2025-09-08T09:34:25Z",
+              "completed_at": "2025-09-08T09:34:56Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 49828641706,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/17546362142/job/49828641706",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-08T09:34:25Z",
+              "completed_at": "2025-09-08T09:34:33Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 39072970726,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-python/583",
+              "conclusion": "success",
+              "started_at": "2025-09-08T09:34:56Z",
+              "completed_at": "2025-09-08T09:34:56Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 39073041611,
+              "name": "docs/readthedocs.org:zenoh-python",
+              "html_url": "https://zenoh-python--583.org.readthedocs.build/en/583/",
+              "conclusion": "success",
+              "started_at": "2025-09-08T09:37:23Z",
+              "completed_at": "2025-09-08T09:37:23Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            }
+          ]
+        }
+      ],
       "branchesComparison": {}
     },
     {
