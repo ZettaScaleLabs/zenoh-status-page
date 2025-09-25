@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2025-09-25T07:05:43.436Z",
+    "date": "2025-09-25T08:06:45.368Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/17999700085"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/18001071452"
   },
   "projects": [
     {
@@ -12,7 +12,7 @@
       "name": "zenoh",
       "description": "zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.",
       "html_url": "https://github.com/eclipse-zenoh/zenoh",
-      "updated_at": "2025-09-24T19:31:53Z",
+      "updated_at": "2025-09-25T07:47:35Z",
       "homepage": "https://zenoh.io",
       "language": "Rust",
       "default_branch": "main",
@@ -29,9 +29,15 @@
             "internal"
           ],
           "draft": false,
-          "requested_reviewers": [],
+          "requested_reviewers": [
+            {
+              "login": "diogomatsubara",
+              "avatar_url": "https://avatars.githubusercontent.com/u/105662?v=4",
+              "html_url": "https://github.com/diogomatsubara"
+            }
+          ],
           "created_at": "2025-09-25T04:05:54Z",
-          "updated_at": "2025-09-25T05:25:24Z",
+          "updated_at": "2025-09-25T08:01:10Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -238,14 +244,34 @@
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 39544198223,
+              "id": 39547046153,
               "name": "eclipsefdn/eca",
               "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/2167",
               "conclusion": "success",
-              "started_at": "2025-09-25T05:25:29Z",
-              "completed_at": "2025-09-25T05:25:29Z",
+              "started_at": "2025-09-25T08:01:14Z",
+              "completed_at": "2025-09-25T08:01:14Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 39547047544,
+              "name": "codecov/project",
+              "html_url": "https://app.codecov.io/gh/eclipse-zenoh/zenoh/commit/dd80a9cfb277fc1639dfb98df4259f8ecdd91080",
+              "conclusion": "success",
+              "started_at": "2025-09-25T08:01:17Z",
+              "completed_at": "2025-09-25T08:01:17Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4"
+            },
+            {
+              "id": 39547047746,
+              "name": "codecov/patch",
+              "html_url": "https://app.codecov.io/gh/eclipse-zenoh/zenoh/commit/dd80a9cfb277fc1639dfb98df4259f8ecdd91080",
+              "conclusion": "success",
+              "started_at": "2025-09-25T08:01:17Z",
+              "completed_at": "2025-09-25T08:01:17Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4"
             }
           ]
         },
@@ -14772,6 +14798,68 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-pico",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 1052,
+          "title": "clang-format: set PointerAlignment to Right",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls/1052",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/pull/1052",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2025-09-25T07:59:58Z",
+          "updated_at": "2025-09-25T08:00:11Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "8ec4a58dc4310e5102154996584e883bd9e7f92c",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "clang-format",
+            "sha": "044ffc1d83ce9a9a29e2cf47cb3c3d977abba380",
+            "label": "ZettaScaleLabs:clang-format"
+          },
+          "user": {
+            "login": "steils",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10670399?v=4",
+            "html_url": "https://github.com/steils"
+          },
+          "checks": [
+            {
+              "id": 51209757808,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/18000912754/job/51209757808",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2025-09-25T08:00:06Z",
+              "completed_at": "2025-09-25T08:00:13Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 39547020453,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1052",
+              "conclusion": "success",
+              "started_at": "2025-09-25T08:00:14Z",
+              "completed_at": "2025-09-25T08:00:14Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 39547039495,
+              "name": "docs/readthedocs.org:zenoh-pico",
+              "html_url": "https://zenoh-pico--1052.org.readthedocs.build/en/1052/",
+              "conclusion": "success",
+              "started_at": "2025-09-25T08:01:00Z",
+              "completed_at": "2025-09-25T08:01:00Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            }
+          ]
+        },
         {
           "number": 1051,
           "title": "Ensure session struct is cleaned up correctly once initialized.",
