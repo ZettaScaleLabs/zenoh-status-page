@@ -14,7 +14,7 @@ jobs:
     name: Generate status page data
     steps:
       - name: Generate status page data
-        uses: kiegroup/chain-status/.ci/actions/generate-data@38ea77d0f2fb651ea610fef9f83c9e0b2014f609
+        uses: ZettaScaleLabs/chain-status/.ci/actions/generate-data@main
         with:
           definition-file: https://raw.githubusercontent.com/ZettaScaleLabs/zenoh-status-page/main/.ci/project-dependencies.yml
           title: Zenoh Status
