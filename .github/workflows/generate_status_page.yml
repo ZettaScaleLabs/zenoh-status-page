@@ -12,6 +12,10 @@ jobs:
     runs-on: ubuntu-runner-set
     name: Generate status page
     steps:
+      - name: Install npm
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
       - name: Install Yarn
         run: npm install -g yarn
       - name: Generate status webpage
