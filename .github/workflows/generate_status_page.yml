@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-runner-set
     name: Generate status page
     steps:
+      - name: Install Yarn
+        run: npm install -g yarn
       - name: Generate status webpage
         # uses the already provided chain-status action for app generation purpose
         uses: kiegroup/chain-status/.ci/actions/generate-app@main
@@ -19,3 +21,6 @@ jobs:
           info-md-url: "https://raw.githubusercontent.com/ZettaScaleLabs/zenoh-status-page/main/.ci/chain-status-info.md"
           github-token: "${{ secrets.ZETTASCALE_BOT_PERSONAL_ACCESS_TOKEN }}"
           gh-pages-branch: "gh-pages"
+      - name: Uninstall Yarn
+        if: always()
+        run: npm uninstall -g yarn
