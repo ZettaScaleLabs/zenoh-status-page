@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-02-22T03:00:58.685Z",
+    "date": "2026-02-22T04:35:17.501Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/22269270144"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/22270492673"
   },
   "projects": [
     {
@@ -12,7 +12,7 @@
       "name": "zenoh",
       "description": "zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.",
       "html_url": "https://github.com/eclipse-zenoh/zenoh",
-      "updated_at": "2026-02-22T00:45:10Z",
+      "updated_at": "2026-02-22T04:21:21Z",
       "homepage": "https://zenoh.io",
       "language": "Rust",
       "default_branch": "main",
@@ -18741,6 +18741,100 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-pico",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 1164,
+          "title": "Generate build artifacts to binary dir instead of source tree",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls/1164",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/pull/1164",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2026-02-22T04:09:49Z",
+          "updated_at": "2026-02-22T04:12:11Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "6a3094813a709da60444da7d1ee7598be72149be",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "fix/out-of-tree-build-artifacts",
+            "sha": "7ac1544b5bf32b66746dd4362d81736475d48ae9",
+            "label": "julianoes:fix/out-of-tree-build-artifacts"
+          },
+          "user": {
+            "login": "julianoes",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1419688?v=4",
+            "html_url": "https://github.com/julianoes"
+          },
+          "checks": [
+            {
+              "id": 64423362220,
+              "name": "Verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/22270194205/job/64423362220",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-02-22T04:12:17Z",
+              "completed_at": "2026-02-22T04:12:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 64423279469,
+              "name": "Generate / verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/22270162195/job/64423279469",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-02-22T04:10:05Z",
+              "completed_at": "2026-02-22T04:10:11Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 64423273948,
+              "name": "Generate / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/22270162195/job/64423273948",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-02-22T04:09:55Z",
+              "completed_at": "2026-02-22T04:10:03Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 43848493892,
+              "name": "docs/readthedocs.org:zenoh-pico",
+              "html_url": "https://zenoh-pico--1164.org.readthedocs.build/en/1164/",
+              "conclusion": "success",
+              "started_at": "2026-02-22T04:11:04Z",
+              "completed_at": "2026-02-22T04:11:04Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            },
+            {
+              "id": 43848502971,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1164",
+              "conclusion": "failure",
+              "started_at": "2026-02-22T04:12:15Z",
+              "completed_at": "2026-02-22T04:12:15Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 43848503576,
+              "name": "PR Checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/22270194205",
+              "conclusion": "success",
+              "started_at": "2026-02-22T04:12:20Z",
+              "completed_at": "2026-02-22T04:12:20Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
+            }
+          ]
+        },
         {
           "number": 1163,
           "title": "Improves the robustness of integration test scripts",
