@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-03-04T21:08:23.542Z",
+    "date": "2026-03-04T22:06:52.317Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/22689374772"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/22691627070"
   },
   "projects": [
     {
@@ -30344,6 +30344,169 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-python",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-python/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 689,
+          "title": "deprecate reply options",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-python/pulls/689",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-python/pull/689",
+          "state": "open",
+          "labels": [
+            "enhancement"
+          ],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2026-03-04T21:43:52Z",
+          "updated_at": "2026-03-04T21:43:52Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "9521f5eb9f210c127596cd15dd377a06900640fe",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "zbobr_fix-28-deprecate-reply-options",
+            "sha": "7021a8e814a761440894bde99fa1df4ba0374c6f",
+            "label": "milyin-zenoh-zbobr:zbobr_fix-28-deprecate-reply-options"
+          },
+          "user": {
+            "login": "milyin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1909657?v=4",
+            "html_url": "https://github.com/milyin"
+          },
+          "checks": [
+            {
+              "id": 65786303629,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65786303629",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-03-04T21:50:57Z",
+              "completed_at": "2026-03-04T21:51:01Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785791302,
+              "name": "build (3.10)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785791302",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:46:56Z",
+              "completed_at": "2026-03-04T21:50:45Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785791298,
+              "name": "build (3.11)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785791298",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:46:50Z",
+              "completed_at": "2026-03-04T21:50:35Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785791282,
+              "name": "build (3.13-dev)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785791282",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:46:56Z",
+              "completed_at": "2026-03-04T21:50:48Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785791256,
+              "name": "build (3.12)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785791256",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:46:57Z",
+              "completed_at": "2026-03-04T21:50:45Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785791247,
+              "name": "build (3.9)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785791247",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-03-04T21:46:50Z",
+              "completed_at": "2026-03-04T21:50:27Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785422448,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785422448",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:44:00Z",
+              "completed_at": "2026-03-04T21:44:07Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785422430,
+              "name": "check",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769839/job/65785422430",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:44:00Z",
+              "completed_at": "2026-03-04T21:46:48Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785421125,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769282/job/65785421125",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:44:05Z",
+              "completed_at": "2026-03-04T21:44:07Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 65785421003,
+              "name": "Check PR labels / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-python/actions/runs/22690769293/job/65785421003",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:44:05Z",
+              "completed_at": "2026-03-04T21:44:08Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 44278955898,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-python/689",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:43:59Z",
+              "completed_at": "2026-03-04T21:43:59Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 44279175569,
+              "name": "docs/readthedocs.org:zenoh-python",
+              "html_url": "https://zenoh-python--689.org.readthedocs.build/en/689/",
+              "conclusion": "success",
+              "started_at": "2026-03-04T21:48:44Z",
+              "completed_at": "2026-03-04T21:48:44Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            }
+          ]
+        },
         {
           "number": 684,
           "title": "Connectivity API: get information about links and transports",
