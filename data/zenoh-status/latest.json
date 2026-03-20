@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-03-20T19:15:13.592Z",
+    "date": "2026-03-20T20:06:50.675Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/23358747329"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/23360554375"
   },
   "projects": [
     {
@@ -18028,10 +18028,21 @@
           "labels": [
             "enhancement"
           ],
-          "draft": true,
-          "requested_reviewers": [],
+          "draft": false,
+          "requested_reviewers": [
+            {
+              "login": "steils",
+              "avatar_url": "https://avatars.githubusercontent.com/u/10670399?v=4",
+              "html_url": "https://github.com/steils"
+            },
+            {
+              "login": "gmartin82",
+              "avatar_url": "https://avatars.githubusercontent.com/u/20336323?v=4",
+              "html_url": "https://github.com/gmartin82"
+            }
+          ],
           "created_at": "2026-03-20T16:30:40Z",
-          "updated_at": "2026-03-20T18:49:17Z",
+          "updated_at": "2026-03-20T19:39:42Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -18050,6 +18061,17 @@
             "html_url": "https://github.com/DenisBiryukov91"
           },
           "checks": [
+            {
+              "id": 67956428524,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23357828979/job/67956428524",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-20T19:15:53Z",
+              "completed_at": "2026-03-20T19:15:56Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
             {
               "id": 67953926578,
               "name": "Modular build on ubuntu-latest (1, 1, 1, 0)",
@@ -18681,10 +18703,10 @@
               "id": 67953173344,
               "name": "Run integration tests / Build on ubuntu-latest with ASAN",
               "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23357828979/job/67953173344",
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "started_at": "2026-03-20T18:49:23Z",
-              "completed_at": null,
+              "completed_at": "2026-03-20T19:15:51Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
@@ -18964,16 +18986,6 @@
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 44970180475,
-              "name": "eclipsefdn/eca",
-              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1190",
-              "conclusion": "success",
-              "started_at": "2026-03-20T18:49:20Z",
-              "completed_at": "2026-03-20T18:49:20Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
-            },
-            {
               "id": 44970190500,
               "name": "PR Checklist",
               "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23357828448",
@@ -18992,6 +19004,16 @@
               "completed_at": "2026-03-20T18:50:26Z",
               "slug": false,
               "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            },
+            {
+              "id": 44972239006,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1190",
+              "conclusion": "success",
+              "started_at": "2026-03-20T19:37:18Z",
+              "completed_at": "2026-03-20T19:37:18Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
           ]
         },
@@ -19024,7 +19046,7 @@
             }
           ],
           "created_at": "2026-03-17T23:19:40Z",
-          "updated_at": "2026-03-20T18:42:09Z",
+          "updated_at": "2026-03-20T19:47:29Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -19043,6 +19065,50 @@
             "html_url": "https://github.com/steils"
           },
           "checks": [
+            {
+              "id": 67960116810,
+              "name": "Cleanup artifacts",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23359749521/job/67960116810",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-03-20T19:47:03Z",
+              "completed_at": "2026-03-20T19:47:08Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 67960086973,
+              "name": "Upload results",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23359749521/job/67960086973",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-20T19:46:48Z",
+              "completed_at": "2026-03-20T19:47:01Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 67959703457,
+              "name": "Agent",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23359749521/job/67959703457",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-20T19:43:32Z",
+              "completed_at": "2026-03-20T19:46:45Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 67959688671,
+              "name": "Prepare",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/23359749521/job/67959688671",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-03-20T19:43:24Z",
+              "completed_at": "2026-03-20T19:43:29Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
             {
               "id": 67954408203,
               "name": "CI status checks",
