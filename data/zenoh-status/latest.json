@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-06-04T01:53:09.244Z",
+    "date": "2026-06-04T03:07:22.566Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/26925110453"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/26927781981"
   },
   "projects": [
     {
@@ -18410,6 +18410,89 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-pico",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 1231,
+          "title": "fix(espidf): correct condvar clock mismatch in _z_condvar_wait_until",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls/1231",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/pull/1231",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2026-06-04T02:10:41Z",
+          "updated_at": "2026-06-04T02:34:14Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "07c84ebcf926114bffbf70edd82f3d71919c3868",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "fix/espidf-condvar-clock",
+            "sha": "fb188822cf03450963ec48c3d7f796a17d73eaeb",
+            "label": "s-hosoai:fix/espidf-condvar-clock"
+          },
+          "user": {
+            "login": "s-hosoai",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1429121?v=4",
+            "html_url": "https://github.com/s-hosoai"
+          },
+          "checks": [
+            {
+              "id": 79437880115,
+              "name": "Generate / verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/26926617883/job/79437880115",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-04T02:34:33Z",
+              "completed_at": "2026-06-04T02:34:38Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79437858538,
+              "name": "Generate / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/26926617883/job/79437858538",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-06-04T02:34:21Z",
+              "completed_at": "2026-06-04T02:34:31Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48407384312,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1231",
+              "conclusion": "success",
+              "started_at": "2026-06-04T02:34:18Z",
+              "completed_at": "2026-06-04T02:34:18Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 48407392875,
+              "name": "PR Checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/26926617883",
+              "conclusion": "success",
+              "started_at": "2026-06-04T02:34:36Z",
+              "completed_at": "2026-06-04T02:34:36Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
+            },
+            {
+              "id": 48407419690,
+              "name": "docs/readthedocs.org:zenoh-pico",
+              "html_url": "https://zenoh-pico--1231.org.readthedocs.build/en/1231/",
+              "conclusion": "success",
+              "started_at": "2026-06-04T02:35:36Z",
+              "completed_at": "2026-06-04T02:35:36Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            }
+          ]
+        },
         {
           "number": 1228,
           "title": "fix(codec): validate scouting message ZID lengths",
