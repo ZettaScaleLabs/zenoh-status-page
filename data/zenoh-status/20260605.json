@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-06-05T11:05:57.864Z",
+    "date": "2026-06-05T12:58:05.223Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/27011242014"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/27016188197"
   },
   "projects": [
     {
@@ -19,6 +19,354 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 2635,
+          "title": "Fix for the deadlock when dropping a Querier with a pending query whose completion callback re-enters the Session",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/2635",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/2635",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2026-06-05T12:01:56Z",
+          "updated_at": "2026-06-05T12:49:42Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "6be4942a2524f154896d8af1097e1f667aaac83d",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "querier-deadlock-fix",
+            "sha": "b6e54820bdd206fd95d06d41e01b4d829a7d121a",
+            "label": "ciprianf:querier-deadlock-fix"
+          },
+          "user": {
+            "login": "ciprianf",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1496115?v=4",
+            "html_url": "https://github.com/ciprianf"
+          },
+          "checks": [
+            {
+              "id": 79730831371,
+              "name": "CI status checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79730831371",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:52:21Z",
+              "completed_at": "2026-06-05T12:52:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79730411743,
+              "name": "codecov/patch",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/runs/79730411743",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:49:41Z",
+              "completed_at": "2026-06-05T12:49:41Z",
+              "slug": "codecov",
+              "avatar_url": "https://avatars.githubusercontent.com/u/8226205?v=4"
+            },
+            {
+              "id": 79730409239,
+              "name": "codecov/project",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/runs/79730409239",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:49:40Z",
+              "completed_at": "2026-06-05T12:49:40Z",
+              "slug": "codecov",
+              "avatar_url": "https://avatars.githubusercontent.com/u/8226205?v=4"
+            },
+            {
+              "id": 79728087940,
+              "name": "Memory leak checks",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79728087940",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:34:38Z",
+              "completed_at": "2026-06-05T12:37:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724136964,
+              "name": "Generate / verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950560/job/79724136964",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:26Z",
+              "completed_at": "2026-06-05T12:08:31Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129970,
+              "name": "Lints and doc tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129970",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:34:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129910,
+              "name": "Unit tests on windows-latest (shared memory)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129910",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:47:58Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129809,
+              "name": "Unit tests on macos-latest (shared memory)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129809",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:42:43Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129789,
+              "name": "Unit tests on windows-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129789",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:28:05Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129738,
+              "name": "Unit tests on ubuntu-latest (shared memory)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129738",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:31:39Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129732,
+              "name": "Lints and doc tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129732",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:23:55Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129724,
+              "name": "Unit tests on windows-latest (unstable)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129724",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:52:18Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129718,
+              "name": "Check zenoh using Rust 1.75 (macos-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129718",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:11:41Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129712,
+              "name": "Unit tests on macos-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129712",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:25Z",
+              "completed_at": "2026-06-05T12:28:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129703,
+              "name": "Unit tests on ubuntu-latest (unstable)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129703",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:35:43Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129659,
+              "name": "Check zenoh using Rust 1.75 (windows-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129659",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:12:49Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129647,
+              "name": "Check zenoh using Rust 1.75 (ubuntu-latest)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129647",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:12:02Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129642,
+              "name": "Unit tests on ubuntu-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129642",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:23Z",
+              "completed_at": "2026-06-05T12:23:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129633,
+              "name": "Unit tests on macos-latest (unstable)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129633",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:25Z",
+              "completed_at": "2026-06-05T12:47:34Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724129579,
+              "name": "Lints and doc tests on macos-latest",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724129579",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:24Z",
+              "completed_at": "2026-06-05T12:21:15Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724113194,
+              "name": "Generate documentation",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724113194",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:19Z",
+              "completed_at": "2026-06-05T12:09:53Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724113179,
+              "name": "Typos Check",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724113179",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:18Z",
+              "completed_at": "2026-06-05T12:08:25Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724113160,
+              "name": "Coverage (ubuntu-latest, nightly)",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724113160",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:17Z",
+              "completed_at": "2026-06-05T12:49:30Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724113158,
+              "name": "determine-runner",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724113158",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:17Z",
+              "completed_at": "2026-06-05T12:08:21Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724113147,
+              "name": "Fuzz target smoke tests",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724113147",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:18Z",
+              "completed_at": "2026-06-05T12:15:18Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724113145,
+              "name": "markdown_lint",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950995/job/79724113145",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:17Z",
+              "completed_at": "2026-06-05T12:08:22Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 79724112577,
+              "name": "Generate / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950560/job/79724112577",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-06-05T12:08:17Z",
+              "completed_at": "2026-06-05T12:08:24Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 48491843191,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/2635",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:14Z",
+              "completed_at": "2026-06-05T12:08:14Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 48491854817,
+              "name": "PR Checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/27013950560",
+              "conclusion": "success",
+              "started_at": "2026-06-05T12:08:30Z",
+              "completed_at": "2026-06-05T12:08:30Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
+            }
+          ]
+        },
         {
           "number": 2633,
           "title": "fix(util): avoid panic when parsing a bare \"s\" duration",
