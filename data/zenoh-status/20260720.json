@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-07-20T03:03:13.150Z",
+    "date": "2026-07-20T05:13:02.896Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/29713743494"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/29718591577"
   },
   "projects": [
     {
@@ -19,6 +19,79 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 2691,
+          "title": "fix: parse array-item config key filter from the last `=`",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh/pulls/2691",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh/pull/2691",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2026-07-20T03:10:52Z",
+          "updated_at": "2026-07-20T03:15:43Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "44b8e952064f73b3f6527c76f89c884f681a77f0",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "fix/2655-array-item-key-parsing",
+            "sha": "1656ec70b8f2ba1a96a3be126a56321b67372307",
+            "label": "jpatel3:fix/2655-array-item-key-parsing"
+          },
+          "user": {
+            "login": "jpatel3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1363884?v=4",
+            "html_url": "https://github.com/jpatel3"
+          },
+          "checks": [
+            {
+              "id": 88264131188,
+              "name": "Generate / verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/29714085939/job/88264131188",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-07-20T03:15:51Z",
+              "completed_at": "2026-07-20T03:15:58Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 88263513530,
+              "name": "Generate / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/29714085939/job/88263513530",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-07-20T03:15:36Z",
+              "completed_at": "2026-07-20T03:15:47Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 50729580521,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/2691",
+              "conclusion": "failure",
+              "started_at": "2026-07-20T03:10:56Z",
+              "completed_at": "2026-07-20T03:10:56Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            },
+            {
+              "id": 50729693984,
+              "name": "PR Checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh/actions/runs/29714085939",
+              "conclusion": "success",
+              "started_at": "2026-07-20T03:15:54Z",
+              "completed_at": "2026-07-20T03:15:54Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
+            }
+          ]
+        },
         {
           "number": 2690,
           "title": "chore: recreate Cargo.lock",
@@ -995,7 +1068,7 @@
           "draft": false,
           "requested_reviewers": [],
           "created_at": "2026-07-18T09:19:54Z",
-          "updated_at": "2026-07-18T14:18:12Z",
+          "updated_at": "2026-07-20T04:43:53Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
