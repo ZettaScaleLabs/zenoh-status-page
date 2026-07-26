@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Zenoh Status",
     "subtitle": "Zenoh  repositories CI Status",
-    "date": "2026-07-26T17:21:37.864Z",
+    "date": "2026-07-26T18:20:06.533Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/30212385610"
+    "createdUrl": "https://github.com/ZettaScaleLabs/zenoh-status-page/actions/runs/30214473287"
   },
   "projects": [
     {
@@ -12,7 +12,7 @@
       "name": "zenoh",
       "description": "zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.",
       "html_url": "https://github.com/eclipse-zenoh/zenoh",
-      "updated_at": "2026-07-26T08:32:29Z",
+      "updated_at": "2026-07-26T18:14:19Z",
       "homepage": "https://zenoh.io",
       "language": "Rust",
       "default_branch": "main",
@@ -19146,16 +19146,6 @@
               "completed_at": "2025-06-11T12:08:09Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 36892278296,
-              "name": "eclipsefdn/eca",
-              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh/1859",
-              "conclusion": "failure",
-              "started_at": "2025-06-11T11:41:58Z",
-              "completed_at": "2026-07-16T17:47:52Z",
-              "slug": false,
-              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
             }
           ]
         },
@@ -19754,6 +19744,100 @@
       "repo_url": "https://github.com/eclipse-zenoh/zenoh-pico",
       "pulls_url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls{/number}",
       "pullRequests": [
+        {
+          "number": 1272,
+          "title": "fix: parse standard UUID text representation",
+          "url": "https://api.github.com/repos/eclipse-zenoh/zenoh-pico/pulls/1272",
+          "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/pull/1272",
+          "state": "open",
+          "labels": [],
+          "draft": false,
+          "requested_reviewers": [],
+          "created_at": "2026-07-26T17:25:47Z",
+          "updated_at": "2026-07-26T18:06:05Z",
+          "closed_at": null,
+          "merged_at": null,
+          "base": {
+            "ref": "main",
+            "sha": "9fb469aa072007e7f9b410e25d06057518892c30",
+            "label": "eclipse-zenoh:main"
+          },
+          "head": {
+            "ref": "agent/fix-standard-uuid-parse",
+            "sha": "e2cf976972b7a95267f3b3e8d57ebf021a111f33",
+            "label": "tianrking:agent/fix-standard-uuid-parse"
+          },
+          "user": {
+            "login": "tianrking",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10758833?v=4",
+            "html_url": "https://github.com/tianrking"
+          },
+          "checks": [
+            {
+              "id": 89823296324,
+              "name": "Verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/30213389669/job/89823296324",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-07-26T17:49:29Z",
+              "completed_at": "2026-07-26T17:49:33Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 89821166949,
+              "name": "Generate / verify / Verify checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/30212556305/job/89821166949",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-07-26T17:26:05Z",
+              "completed_at": "2026-07-26T17:26:11Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 89821153817,
+              "name": "Generate / main",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/30212556305/job/89821153817",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-07-26T17:25:54Z",
+              "completed_at": "2026-07-26T17:26:01Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 51108194959,
+              "name": "docs/readthedocs.org:zenoh-pico",
+              "html_url": "https://zenoh-pico--1272.org.readthedocs.build/en/1272/",
+              "conclusion": "success",
+              "started_at": "2026-07-26T17:26:49Z",
+              "completed_at": "2026-07-26T17:26:49Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/oa/121738?v=4"
+            },
+            {
+              "id": 51108621337,
+              "name": "PR Checklist",
+              "html_url": "https://github.com/eclipse-zenoh/zenoh-pico/actions/runs/30213389669",
+              "conclusion": "success",
+              "started_at": "2026-07-26T17:49:32Z",
+              "completed_at": "2026-07-26T17:49:32Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
+            },
+            {
+              "id": 51108940449,
+              "name": "eclipsefdn/eca",
+              "html_url": "https://api.eclipse.org/git/eca/status/gh/eclipse-zenoh/zenoh-pico/1272",
+              "conclusion": "failure",
+              "started_at": "2026-07-26T18:06:10Z",
+              "completed_at": "2026-07-26T18:06:10Z",
+              "slug": false,
+              "avatar_url": "https://avatars.githubusercontent.com/in/22325?v=4"
+            }
+          ]
+        },
         {
           "number": 1271,
           "title": "New Platform Support: T3 Gemstone O1 (Texas AM67A)",
